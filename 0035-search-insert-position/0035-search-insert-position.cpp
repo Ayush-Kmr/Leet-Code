@@ -2,12 +2,17 @@ class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
         int n =nums.size();
-        int value=n;
+        int value=0;
         for(int i=0; i<n; i++){
-                if(target<=nums[i]){
-                    return i;
+            if(nums[i]==target){
+                value=i;
+            }
+            else{
+                if(target>=nums[i]){
+                    value=i+1;
                 }
             }
-        return n;
+        }
+        return value;
     }
 };
