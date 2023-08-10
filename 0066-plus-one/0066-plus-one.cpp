@@ -7,17 +7,16 @@ public:
         for(int i=n; i>=0; i--){
             if( digits[i]<9){
                 digits[i]=digits[i]+1;
-                c=0;
-                break;
+                return digits;
             }
             else{
                 digits[i]=0;
                 c=1;
             }
         }
- if(c)
+ 
      digits.insert(digits.begin(),1);
-        
+ 
         return digits;
     }
 };
