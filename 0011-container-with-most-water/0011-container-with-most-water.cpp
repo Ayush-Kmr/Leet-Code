@@ -9,7 +9,6 @@ public:
             int min_value =min(height[low],height[high]);
             int area = (high-low)*min_value;
             max_area=max(max_area,area);
-            // cout<<max_area;
             if(height[high]<height[low]){
                 high--;
             }
