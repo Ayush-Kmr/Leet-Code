@@ -4,19 +4,19 @@ public:
         int n=height.size()-1;
         int low=0;
         int high=n;
-        int maxarea=0;
+        int max_area=0;
         while(low<=high){
-            int minheight = min(height[high],height[low]);
-            int area=(high-low)*minheight;
-            maxarea=max(area,maxarea);
+            int min_value =min(height[low],height[high]);
+            int area = (high-low)*min_value;
+            max_area=max(max_area,area);
+            // cout<<max_area;
             if(height[high]<height[low]){
                 high--;
-                }
+            }
             else{
                 low++;
             }
         }
-        return maxarea;
-        
+        return max_area;
     }
 };
