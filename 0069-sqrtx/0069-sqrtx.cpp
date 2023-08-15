@@ -4,11 +4,8 @@ public:
         int low=1;
         int high=x;
         long long int mid;
-        if(x==0){
-            return 0;
-        }
-        else if(x==1){
-            return 1;
+        if(x<=1){
+            return x;
         }
         while(low<=high){
             mid=low+(high-low)/2;
