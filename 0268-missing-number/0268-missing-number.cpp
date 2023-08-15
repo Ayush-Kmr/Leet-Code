@@ -6,7 +6,6 @@ public:
         int value;
         for(int j=0; j<n; j++){
             if(nums[j]!=j){
-
                 return j; 
             }
         }
