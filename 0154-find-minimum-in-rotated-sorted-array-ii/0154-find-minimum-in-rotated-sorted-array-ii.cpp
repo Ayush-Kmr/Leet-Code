@@ -5,7 +5,6 @@ public:
         int low=0;
         int high=n-1;
         int mid;
-       // int value=INT_MAX;
         int minu=nums[0];
         while(low<=high){
             mid=low+(high-low)/2;
@@ -17,8 +16,12 @@ public:
                 high--;
             }
             else{
-                
+                if(nums[mid]<nums[high]){
                 high=mid-1;
+                }
+                else{
+                    low++;
+                }
         }
         }
         return minu;
