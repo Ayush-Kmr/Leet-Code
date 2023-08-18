@@ -16,6 +16,6 @@ public:
         reverse(nums.begin()+value+1,nums.end());
         return;
                 }
-         reverse(nums.begin()+value,nums.end());
+         reverse(nums.begin(),nums.end());
     }
 };
