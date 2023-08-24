@@ -17,7 +17,7 @@ public:
         ListNode *currentNode = head;
        ListNode *temp=head;
         ListNode *ans=NULL;
-        while(currentNode){
+        while(currentNode!=NULL){
           if(currentNode->val!=val){
               if(ans==NULL){
                 temp=currentNode;
