@@ -17,25 +17,21 @@ public:
         ListNode * currentNode = head;
         ListNode *temp=NULL;
         ListNode *ans=NULL;
-      //  ListNode *p=NULL;
         while(currentNode){
           if(currentNode->val!=val){
               if(ans==NULL){
                 temp=currentNode;
                 ans=temp;
             }
-               else {temp->next=currentNode;
+               else {
+                   temp->next=currentNode;
                      temp=currentNode;
                     }
             }
-          
-            
-
             currentNode=currentNode->next;
         }
         if(temp!=NULL)
         temp->next=NULL;
         return ans;
-
     }
 };
