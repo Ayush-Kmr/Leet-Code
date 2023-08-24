@@ -15,7 +15,7 @@ public:
             return head;
         }
         ListNode * currentNode = head;
-        ListNode *temp=head;
+       ListNode *temp=head;
         ListNode *ans=NULL;
         while(currentNode){
           if(currentNode->val!=val){
@@ -30,7 +30,7 @@ public:
             }
             currentNode=currentNode->next;
         }
-       // if(temp!=NULL)
+      
         temp->next=NULL;
         return ans;
     }
