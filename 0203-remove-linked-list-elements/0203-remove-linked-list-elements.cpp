@@ -14,7 +14,7 @@ public:
         if(head==NULL){
             return head;
         }
-        ListNode * currentNode = head;
+        ListNode *currentNode = head;
        ListNode *temp=head;
         ListNode *ans=NULL;
         while(currentNode){
