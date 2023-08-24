@@ -20,9 +20,9 @@ public:
        while(curr)
         {
             if(curr->val!=val)
-              {    if(f)
+              {    if(H==NULL)
                   {H=curr;
-                  f=0;
+                 // f=0;
                   p=curr;
               }
               else { p->next=curr;
