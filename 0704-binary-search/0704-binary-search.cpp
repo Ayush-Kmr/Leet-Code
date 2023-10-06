@@ -5,8 +5,9 @@ public:
     }
     
     int binary(vector<int> nums, int low, int high , int target){
-        if(low>high)
-            return -1;
+        while(low<=high)
+          {  
+            //return -1;
        int mid = low + (high-low)/2;
         if(nums[mid]==target){
             return mid;
@@ -14,8 +15,8 @@ public:
         if(nums[mid]<target)
             low=mid+1;
         else
-            high=mid-1;
-         return(binary(nums, low, high ,target));
+            high=mid-1;}
+         return -1;
         
     }
 };
