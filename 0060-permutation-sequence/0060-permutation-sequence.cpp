@@ -7,8 +7,9 @@ public:
     }
 string solve(int p, int n, int k, string s)
 {
-    if (p >= n-1 )
+    if (p >= n-2 )
     {
+        if(k==1)swap(s[n-1],s[n-2]);
         return s;
     }
 
