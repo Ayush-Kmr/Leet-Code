@@ -25,7 +25,7 @@ string solve(int p, int n, int k, string s)
         string s="";
             for(int i=1;i<=n;i++)
                 s+=('0'+i);
-        if(k==1)return s;
+       // if(k==1)return s;
       return  solve(0,n,k-1,s);
         
     }
