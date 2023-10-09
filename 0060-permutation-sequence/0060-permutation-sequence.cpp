@@ -7,7 +7,7 @@ public:
     }
 string solve(int p, int n, int k, string s)
 {
-    if (p >= n )
+    if (p >= n-1 )
     {
         return s;
     }
