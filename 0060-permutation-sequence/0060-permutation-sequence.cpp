@@ -12,7 +12,7 @@ string solve(int p, int n, int k, string s)
         return s;
     }
 
-    int f = fac(n - p - 1);
+    int f = fac(n - 1 - p);
 
     int q = k / f;
 
