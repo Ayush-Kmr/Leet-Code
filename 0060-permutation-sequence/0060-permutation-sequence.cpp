@@ -23,9 +23,9 @@ string solve(int p, int n, int k, string s)
 
     string getPermutation(int n, int k) {
         string s="";
-            for(int i=1;i<=n;i++)
-                s+=('0'+i);
-       // if(k==1)return s;
+        for(int i=1;i<=n;i++)
+         s+=('0'+i);
+      
       return  solve(0,n,k-1,s);
         
     }
