@@ -10,7 +10,7 @@ public:
                 l=m+1;
             else h=m;
         }
-        return l;
+        return h;
         
     }
 };
