@@ -36,8 +36,7 @@ public:
             
         }
         
-        int s1=search(nums,t,0,l,0);
-       // cout<<s1<<"k";
+        int s1=search(nums,t,0,h,0);
         if(s1!=-1)return s1;
         return search(nums,t,l,n-1,1);
     }
