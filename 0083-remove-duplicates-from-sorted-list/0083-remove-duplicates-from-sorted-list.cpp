@@ -14,15 +14,7 @@ public:
         if(head==NULL || head->next==NULL){
             return head;
         }
-        ListNode* curr=head;
-        while(curr->next!=NULL){
-            if(curr->val==curr->next->val){
-                curr->next=curr->next->next;
-            }
-            else{
-            curr=curr->next;
-            }
-        }
-    return head;
+        head->next=deleteDuplicates(head->next);
+        return(head->val==head->next->val)?head->next : head;
     }
 };
