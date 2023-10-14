@@ -10,20 +10,18 @@
  */
 class Solution {
 public:
+     ListNode* curr;
+    bool solve (ListNode* head)
+    {
+        if(!head)return 1;
+     bool b=solve(head->next);
+       bool c= curr->val==head->val && b;
+        curr=curr->next;
+       
+           return c;
+    }
     bool isPalindrome(ListNode* head) {
-       // return NULL;
-        ListNode* curr=head;
-        vector<int>v;
-        while(curr)
-        {
-            v.push_back(curr->val);
-            curr=curr->next;
-        }
-        int l=0;
-        int h=v.size()-1;
-        
-        while(l<h)
-            if(v[l++]!=v[h--])return 0;
-        return 1;
+        curr=head;
+     return solve(head);
     }
 };
