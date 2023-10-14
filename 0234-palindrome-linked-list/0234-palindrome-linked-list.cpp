@@ -10,18 +10,16 @@
  */
 class Solution {
 public:
-     ListNode* curr;
-    bool solve (ListNode* head)
-    {
-        if(!head)return 1;
-     bool b=solve(head->next)&& curr->val==head->val;
-     //  bool c=  && b;
+    ListNode* curr;
+    bool solve(ListNode* head){
+        if(head==NULL) return 1;
+        bool ans=solve(head->next) && curr->val == head->val;
         curr=curr->next;
-       
-           return b;
+        return ans;
     }
+        
     bool isPalindrome(ListNode* head) {
         curr=head;
-     return solve(head);
+        return solve(head);
     }
 };
