@@ -14,11 +14,11 @@ public:
     bool solve (ListNode* head)
     {
         if(!head)return 1;
-     bool b=solve(head->next);
-       bool c= curr->val==head->val && b;
+     bool b=solve(head->next)&& curr->val==head->val;
+     //  bool c=  && b;
         curr=curr->next;
        
-           return c;
+           return b;
     }
     bool isPalindrome(ListNode* head) {
         curr=head;
