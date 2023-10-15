@@ -10,10 +10,10 @@
  */
 class Solution {
 public:
-    int size=1;
+    int size=0;
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        if(head==NULL || head->next==NULL)
-        return (size==(n)?head->next:head);
+        if(head==NULL)
+        return head;
         head->next=removeNthFromEnd(head->next,n);
         size++;
         return(size==(n)?head->next:head);
