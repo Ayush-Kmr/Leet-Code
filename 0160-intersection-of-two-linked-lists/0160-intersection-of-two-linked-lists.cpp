@@ -9,31 +9,26 @@
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-       ListNode *curr=headA;
-         ListNode *ans=NULL;
-        while(curr)
-        {
-            curr->val*=-1;
-            curr=curr->next;
+        ListNode* curr1=headA;
+        ListNode* curr2=headB;
+        ListNode* ans=NULL;
+        while(curr1!=NULL){
+            curr1->val*=-1;
+            curr1=curr1->next;
         }
-        curr=headB;
-        
-         while(curr)
-        { if(curr->val<0)
-           { curr->val*=-1;
-            if(!ans)ans=curr;
+        while(curr2!=NULL){
+            if(curr2->val<0){
+              curr2->val*=-1;
+             if(ans==NULL){ans=curr2;}
             }
-        // cout<<curr->val<<" ";
-            curr=curr->next;
+            curr2=curr2->next;
         }
-        curr=headA;
-         while(curr)
-        {  if(curr->val<0)
-            curr->val*=-1;
-            curr=curr->next;
+        curr1=headA;
+        while(curr1!=NULL){
+            if(curr1->val<0){
+            curr1->val*=-1;}
+            curr1=curr1->next;
         }
         return ans;
-      
-
     }
 };
