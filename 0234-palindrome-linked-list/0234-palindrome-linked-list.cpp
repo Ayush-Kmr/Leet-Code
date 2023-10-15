@@ -13,7 +13,7 @@ public:
     ListNode* curr=NULL;
      
     bool isPalindrome(ListNode* head) {
-        if(!curr)curr=head;
+        if(curr==NULL)curr=head;
         if(head==NULL) return 1;
         bool ans=isPalindrome(head->next) && curr->val == head->val;
         curr=curr->next;
