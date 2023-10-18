@@ -15,7 +15,7 @@ public:
             }
             
         }
-    //    for(char i: ans)cout<<i<<" ";
-        return ans.empty()==true;
+  
+        return ans.empty();
     }
 };
