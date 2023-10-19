@@ -8,7 +8,7 @@ public:
         for(int i=0;i<n;i++)
         {
            
-            if(s-nums[i]==2*l)return i;
+            if(2*l==s-nums[i])return i;
             l+=nums[i];
         }
         return -1;
