@@ -10,8 +10,6 @@
 
 class Solution {
 public:
-    
-//     =================================================
     int findPeakElement(MountainArray &mountainArr) {
         int n = mountainArr.length();
         int low = 0;
@@ -49,7 +47,9 @@ public:
             }
         }
         
-//         ==========================================================   
+//         ==========================================================
+        
+       
         int high =mountainArr.length()-1;
          while(peak<=high){
             int mid = peak + (high-peak)/2;
