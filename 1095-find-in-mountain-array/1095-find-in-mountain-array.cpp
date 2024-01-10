@@ -10,35 +10,66 @@
 
 class Solution {
 public:
-    int search(MountainArray &nums,int t,int l,int h,bool flag)
-    {  while(l<=h)
-        {int m=l+(h-l)/2;
-        int mid=nums.get(m);
-     if(mid==t)return m;
-     bool b=t>mid;
-         if(b^flag)
-             l=m+1;
-         else h=m-1;
-         }
-     return -1;
-    }
-    int findInMountainArray(int t, MountainArray &nums) {
-        int n=nums.length();
-        int l=0;
-        int h=n-1;
-        while(l<h)
-        {
-            int m=l+(h-l)/2;
-            int mid=nums.get(m);
-            if(nums.get(m+1)>mid)
-                l=m+1;
-            else h=m;
-            
+    int findPeakElement(MountainArray &mountainArr) {
+        int n = mountainArr.length();
+        int low = 0;
+        int high=n-1;
+        while(low<high){
+            int mid = low + (high-low)/2;
+            if(mountainArr.get(mid)<mountainArr.get(mid+1)){
+                low=mid+1;
+            }
+            else{
+                high=mid;
+            }
+        }
+        return low;
+    };
+    
+      // ======================================================= //
+    
+    int findInMountainArray(int target, MountainArray &mountainArr) {
+        int peak1 = findPeakElement(mountainArr);
+        int peak=peak1;
+        int low =0;
+        int v1;
+        while(low<=peak){
+            int mid = low + (peak-low)/2;
+             int mide=mountainArr.get(mid);
+            if(mide==target){
+                return mid;
+                
+            }
+            else if(mide<target){
+                low=mid+1;
+            }
+            else{
+                peak=mid-1;
+            }
         }
         
-        int s1=search(nums,t,0,h,0);
-        if(s1!=-1)return s1;
-        return search(nums,t,h,n-1,1);
+//         ==========================================================
+        
        
+        int high =mountainArr.length()-1;
+        int v2;
+         while(peak<=high){
+            int mid = peak + (high-peak)/2;
+             int mide=mountainArr.get(mid);
+            if(mide==target){
+                return mid;
+              
+            }
+            else if(mide<target){
+                high=mid-1;
+            }
+            else{
+                peak=mid+1;
+            }
+        }
+//         ===============================================================
+       
+        return -1;
     }
+    
 };
