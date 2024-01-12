@@ -1,21 +1,33 @@
+#include <vector>
+#include <map>
+
+using namespace std;
+
 class Solution {
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
-        set<vector<int>>ans2;
-        solve(0,nums,ans2);
-        vector<vector<int>>ans(ans2.begin(),ans2.end());
+        vector<vector<int>> ans;
+        int index = 0;
+        helper(index, nums,ans);
+        
         return ans;
     }
-    void solve(int k, vector<int>& nums , set<vector<int>>& ans2){
-        if(k>=nums.size()){
-            ans2.insert(nums);
+
+    void helper(int index, vector<int>& arr,vector<vector<int>>& ans) {
+        map<int,int>mp;
+        if (index == arr.size()) {
+            ans.push_back(arr);
             return;
         }
-        for(int i=k; i<nums.size(); i++){
-//             To fix the index value for permutation
-            swap(nums[k],nums[i]);
-            solve(k+1,nums,ans2);
-            swap(nums[k],nums[i]);
+
+        for (int i = index; i < arr.size(); i++) {
+            if (mp.count(arr[i]) && mp[arr[i]] > 0) continue;
+            else {
+                mp[arr[i]]++;
+                swap(arr[index], arr[i]);
+                helper(index + 1, arr,ans);
+                swap(arr[index], arr[i]);
+            }
         }
     }
 };
