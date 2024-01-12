@@ -13,12 +13,13 @@ public:
         }
 
         int m = ans.size() - 1;
-while (m != n) {
-    if (m < n) {
-        ans.push_back(0);
-        m++;
-    } else {
-        num.insert(num.begin(), 0);
+        while (m != n) {
+           if (m < n) {
+           ans.push_back(0);
+            m++;
+           }
+      else {
+        num.insert(num.begin(),0);
         n++;
     }
 }
