@@ -4,7 +4,7 @@ public:
         int n = nums.size()-1;
         int ans = 0;
         sort(nums.begin(),nums.end());
-        for(int i=n; i>=0; i--){
+        for(int i=n; i>=2; i--){
             int start=0;
             int high=i-1;
             while(start<high){
