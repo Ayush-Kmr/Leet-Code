@@ -5,7 +5,7 @@ public:
             return 0;
         }
         
-        sort(nums.begin(), nums.end()); 
+        sort(nums.begin(), nums.end()); // Sort the array first
         int ans = 1;
         int count = 1;
 
