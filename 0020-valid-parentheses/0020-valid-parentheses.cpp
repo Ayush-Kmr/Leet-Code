@@ -3,16 +3,14 @@ public:
     bool isValid(string s) {
         stack<char>ans;
         for(char i: s){
-            if(i=='(' || i=='{' || i=='['){
-                ans.push(i);
-            }
+            if(i=='(' || i=='{' || i=='[') ans.push(i);
             else{
-                if(ans.empty()) return false;
-                if(i==')' && ans.top()!='(') return false;
-                if(i=='}' && ans.top()!='{') return false;
-                if(i==']' && ans.top()!='[') return false;
-                ans.pop();
-            }
+            if(ans.empty()) return false;
+            if(i==')' && ans.top()!='(') return false;
+            if(i=='}' && ans.top()!='{') return false;
+            if(i==']' && ans.top()!='[') return false;
+            ans.pop();
+          }
         }
         return ans.empty();
     }
