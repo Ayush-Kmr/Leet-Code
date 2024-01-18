@@ -1,12 +1,13 @@
 class Solution {
 public:
-    int solve(vector<int>& nums, int n, int curr, int prev, vector<vector<int>>& memo) {
+    int solve(vector<int>& nums, int n, int curr, int prev, vector<int>& memo) {
         if (curr == n) {
             return 0;
         }
 
-        if (memo[curr][prev + 1] != -1) {
-            return memo[curr][prev + 1];
+        int memoIndex = curr * n + prev + 1;
+        if (memo[memoIndex] != -1) {
+            return memo[memoIndex];
         }
 
         int pick = 0, notPick = 0;
@@ -17,13 +18,13 @@ public:
 
         notPick = solve(nums, n, curr + 1, prev, memo);
 
-        memo[curr][prev + 1] = max(pick, notPick);
-        return memo[curr][prev + 1];
+        memo[memoIndex] = max(pick, notPick);
+        return memo[memoIndex];
     }
 
     int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
-        vector<vector<int>> memo(n, vector<int>(n, -1)); // Memoization table
+        vector<int> memo(n * n + 1, -1); // Memoization array
         int prev = -1;
         int curr = 0;
         int ans = solve(nums, n, curr, prev, memo);
