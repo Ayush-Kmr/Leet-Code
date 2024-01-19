@@ -1,29 +1,42 @@
+#include <stack>
+
 class MyQueue {
-     private:
-  stack<int> input;
-  stack<int> output;
- public:
-  void push(int x) {
-    input.push(x);
-  }
+public:
+    std::stack<int> s1, s2;
 
-  int pop() {
-    peek();
-    const int val = output.top();
-    output.pop();
-    return val;
-  }
+    MyQueue() {
 
-  int peek() {
-    if (output.empty())
-      while (!input.empty())
-        output.push(input.top()), input.pop();
-    return output.top();
-  }
+    }
 
-  bool empty() {
-    return input.empty() && output.empty();
-  }
+    void push(int x) {
+        s1.push(x);
+    }
 
+    int pop() {
+        if (s2.empty()) {
+            // Transfer elements from s1 to s2
+            while (!s1.empty()) {
+                s2.push(s1.top());
+                s1.pop();
+            }
+        }
+        int frontElement = s2.top();
+        s2.pop();
+        return frontElement;
+    }
 
+    int peek() {
+        if (s2.empty()) {
+            // Transfer elements from s1 to s2
+            while (!s1.empty()) {
+                s2.push(s1.top());
+                s1.pop();
+            }
+        }
+        return s2.top();
+    }
+
+    bool empty() {
+        return s1.empty() && s2.empty();
+    }
 };
