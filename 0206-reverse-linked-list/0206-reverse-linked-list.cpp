@@ -12,30 +12,27 @@ class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
         
-//         Iterative way to solve
-        // =====================================================
-//         ListNode* currentNode = head;
-//         ListNode* prev=NULL;
-//         ListNode* forward=NULL;
-//         while(currentNode!=NULL){
-//             forward=currentNode->next;
-//             currentNode->next=prev;
-//             prev=currentNode;
+//         Iterative Approach
         
-//             currentNode=forward;
-//         }
-//         return prev;
-        
-//         ===========================================================
+    //     ListNode* prev= NULL;
+    //     ListNode* curr=head;
+    //     ListNode* forward=NULL;
+    //     while(curr){
+    //         forward = curr->next;
+    //         curr->next = prev;
+    //         prev=curr;
+    //         curr=forward;
+    //     }
+    //     return prev;
+    // }
         
 //         Recursive Approach
-        
         if(!head || !head->next) return head;
-        
-        ListNode *head2 = reverseList(head->next);
-        head->next->next = head;
+        ListNode* temp = reverseList(head->next);
+        head->next->next =head;
         head->next = NULL;
         
-        return head2;
+        return temp;
+        
     }
 };
