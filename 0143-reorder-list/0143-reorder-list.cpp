@@ -30,7 +30,7 @@ public:
         if(!fast) slow =prev;
         ListNode* temp = reverse(slow);
         ListNode* curr =head;
-        while(temp && curr){
+        while(curr ){
             ListNode* cf = curr->next;
             ListNode* tf = temp->next;
             curr->next=temp;
