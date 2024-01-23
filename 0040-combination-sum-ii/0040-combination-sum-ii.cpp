@@ -8,7 +8,7 @@ public:
         
         for (int i = index; i < arr.size(); i++) {
             if (i > index && arr[i] == arr[i - 1]) {
-                continue; // Skip duplicate elements to avoid duplicate combinations
+                continue;
             }
 
             if (currsum + arr[i] <= target) {
