@@ -10,10 +10,10 @@ public:
             if (i > index && arr[i] == arr[i - 1]) {
                 continue;
             }
-
-            if (currsum + arr[i] <= target) {
+            int newsum = currsum + arr[i];
+            if (newsum <= target) {
                 temp.push_back(arr[i]);
-                solve(arr, i+1, temp, ans, currsum + arr[i], target);
+                solve(arr, i+1, temp, ans,newsum, target);
                 temp.pop_back();
             }
         }
