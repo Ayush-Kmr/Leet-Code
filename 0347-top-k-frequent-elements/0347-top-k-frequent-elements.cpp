@@ -3,7 +3,7 @@ public:
 
     vector<int> topKFrequent(vector<int>& nums, int k) {
         vector<int>ans;
-        map<int,int,greater<int>>mp;
+        map<int,int>mp;
         vector<vector<int>>temp;
         int n= nums.size();
         for(int i=0; i<n; i++){
