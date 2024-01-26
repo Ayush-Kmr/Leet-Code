@@ -1,12 +1,12 @@
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-        map<int,bool>mp;
+        map<int,int>mp;
         int n =  nums.size();
         if(!n) return 0;
        
         for(auto i:nums){
-            mp[i]=1;
+            mp[i]++;
         }
         int count =1;
         int result =1;
@@ -14,6 +14,7 @@ public:
         
             if(mp[i.first-1])count++;
             else count=1;
+            
             result=max(result,count);
             
         }
