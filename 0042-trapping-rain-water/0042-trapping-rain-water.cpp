@@ -10,9 +10,10 @@ public:
         }
         int lm = height[0];
          for(int i=1; i<n; i++){
-             int x = min(lm,rm[i]) - height[i];
-             if(x>0) ans+=x;
              lm = max(lm,height[i]);
+             int x = min(lm,rm[i]) - height[i];
+             ans=ans+x;
+             
          }                   
         return ans;
     }
