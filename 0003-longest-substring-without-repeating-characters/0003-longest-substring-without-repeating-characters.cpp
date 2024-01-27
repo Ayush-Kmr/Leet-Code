@@ -19,7 +19,6 @@ public:
                     break;
                 }
             }
-             ans = max(ans,count);
         }
         
         return max(ans,count);
