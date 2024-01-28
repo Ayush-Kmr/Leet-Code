@@ -18,7 +18,6 @@ public:
                     ans = max(ans,count);
                     count = x-temp[j++];
                 }
-                
             }
             x++;
         }
