@@ -10,7 +10,7 @@ public:
             if(i==0) temp.push_back(x);
             if(i==1) count++;
             else{
-                if( k>0){
+                if(i==0 && k>0){
                     count++;
                     k--;
                 } 
