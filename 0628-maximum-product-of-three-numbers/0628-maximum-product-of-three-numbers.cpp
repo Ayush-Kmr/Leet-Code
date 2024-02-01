@@ -2,7 +2,6 @@ class Solution {
 public:
     int maximumProduct(vector<int>& nums) {
         int n= nums.size();
-        int prod = 1;
         int ans =0;
         sort(nums.begin(),nums.end());
         
