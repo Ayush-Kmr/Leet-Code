@@ -9,6 +9,6 @@ public:
         ans=nums[n-1]*nums[n-2]*nums[n-3];
         ans=max(nums[0]*nums[1]*nums[n-1],ans);
         
-        return max(nums[0]*nums[1]*nums[2],ans);;
+        return max(nums[0]*nums[1]*nums[2],ans);
     }
 };
