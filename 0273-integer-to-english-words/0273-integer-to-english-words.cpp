@@ -16,9 +16,11 @@ public:
         for(auto i: arr){
             if(n>= i.first){
                 
-                return (n>=100 ? solve(n/i.first): "") + 
-                    (i.second) + 
-                    (n%i.first == 0 ? "" : solve(n% i.first));
+                string first =  (n>=100 ? solve(n/i.first): ""); 
+                string second =  (i.second); 
+                string third = (n%i.first == 0 ? "" : solve(n% i.first));
+                
+                return first + second + third;
             }
         }
         
