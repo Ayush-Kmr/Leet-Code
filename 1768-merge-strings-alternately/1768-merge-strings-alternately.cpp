@@ -7,10 +7,10 @@ public:
         int i =0, j=0;
         while(i<n && j<m){
             ans += word1[i++];
-            ans+= word2[j++];
+            ans += word2[j++];
         }
-        while(i<n) ans.push_back(word1[i++]);
-        while(j<m) ans.push_back(word2[j++]);
+        while(i<n) ans+=word1[i++];
+        while(j<m) ans+=word2[j++];
         
         return ans;
     }
