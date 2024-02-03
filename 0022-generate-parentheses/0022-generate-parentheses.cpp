@@ -1,30 +1,20 @@
 class Solution {
 public:
-    void solve(int n , int curop, int curcl, int remop, int remcl, string &temp,        vector<string>&ans){
-        if(remop==0 && remcl ==0){
+    void solve(string temp, int n, int l, int r,vector<string>&ans){
+        if(temp.size()==2*n){
             ans.push_back(temp);
             return;
         }
-        if(remop>0){
-            temp.push_back('(');
-            solve(n,curop+1,curcl,remop-1,remcl,temp,ans);
-            temp.pop_back();
+        if(l<n){
+            solve(temp+'(',n,l+1,r,ans);
         }
-        if(remcl>remop){
-            temp.push_back(')');
-           solve(n,curop,curcl+1,remop,remcl-1,temp,ans);
-            temp.pop_back();
-    }
+        if(r<l){
+            solve(temp+')',n,l,r+1,ans);
+        }
     }
     vector<string> generateParenthesis(int n) {
         vector<string>ans;
-        string temp ="(";
-        int curop = 1;
-        int curcl = 0;
-        int remop = n-1;
-        int remcl = n;
-        solve(n,curop,curcl,remop,remcl,temp,ans);
-        
+        solve("",n,0,0,ans);
         
         return ans;
     }
