@@ -10,9 +10,7 @@ public:
                     if(v.back()>0){
                         if(abs(as[i])>v.back()){
                             v.pop_back();
-                            // v.push_back(as[i]);
-                            i--;
-                            
+                            i--;     
                         }
                         else if(abs(as[i])==v.back()){
                             v.pop_back();
@@ -27,7 +25,6 @@ public:
                 }
             }
         }
-        // reverse(v.begin(),v.end());
         return v;
     }
 };
