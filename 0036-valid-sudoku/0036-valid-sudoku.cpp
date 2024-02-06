@@ -5,13 +5,13 @@ public:
         char x= board[row][col];
         
 //         Checking the whole row value
-        for(int i=0; i<9; i++){
-            if(board[row][i]==x && i!=col) return true;
+        for(int j=0; j<9; j++){
+            if(board[row][j]==x && j!=col) return true;
         }
         
 //         Checking the whole col value
-        for(int j=0; j<9; j++){
-            if(board[j][col]==x && j!=row) return true;
+        for(int i=0; i<9; i++){
+            if(board[i][col]==x && i!=row) return true;
         }
         
         int i= row-(row%3);
