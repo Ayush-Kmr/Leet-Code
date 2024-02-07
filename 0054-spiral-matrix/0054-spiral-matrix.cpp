@@ -1,48 +1,49 @@
-#include <vector>
-
 class Solution {
 public:
-    void solve(vector<vector<int>>& matrix, int row, int col, vector<int>& ans, int z) {
-        // Traverse the top row
-        for (int i = z; i < col - z; i++) {
-            ans.push_back(matrix[z][i]);
-        }
+    void solve(vector<vector<int>>& matrix, int row, int col, vector<int>& ans) {
+        int x = 0;
+        int y = 0;
 
-        // Traverse the rightmost column
-        for (int i = z + 1; i < row - z; i++) {
-            ans.push_back(matrix[i][col - z - 1]);
-        }
-
-        // Traverse the bottom row if it's different from the top row
-        if (z < row - z - 1) {
-            for (int i = col - z - 2; i >= z; i--) {
-                ans.push_back(matrix[row - z - 1][i]);
+        while (x < row && y < col) {
+            // Traverse right
+            for (int i = y; i < col; i++) {
+                ans.push_back(matrix[x][i]);
             }
-        }
+            x++;
 
-        // Traverse the leftmost column if it's different from the rightmost column
-        if (z < col - z - 1) {
-            for (int i = row - z - 2; i > z; i--) {
-                ans.push_back(matrix[i][z]);
+            // Traverse down
+            for (int i = x; i < row; i++) {
+                ans.push_back(matrix[i][col - 1]);
+            }
+            col--;
+
+            // Traverse left
+            if (x < row) {
+                for (int i = col - 1; i >= y; i--) {
+                    ans.push_back(matrix[row - 1][i]);
+                }
+                row--;
+            }
+
+            // Traverse up
+            if (y < col) {
+                for (int i = row - 1; i >= x; i--) {
+                    ans.push_back(matrix[i][y]);
+                }
+                y++;
             }
         }
     }
 
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
         vector<int> ans;
+        if (matrix.empty() || matrix[0].empty()) {
+            return ans;
+        }
 
         int row = matrix.size();
-        if (row == 0) {
-            return ans;
-        }
         int col = matrix[0].size();
-        if (col == 0) {
-            return ans;
-        }
-
-        for (int i = 0; i <= min(row - 1, col - 1) / 2; i++) {
-            solve(matrix, row, col, ans, i);
-        }
+        solve(matrix, row, col, ans);
 
         return ans;
     }
