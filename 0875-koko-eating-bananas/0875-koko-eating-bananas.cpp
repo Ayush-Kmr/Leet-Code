@@ -8,10 +8,13 @@ public:
         
         return ans<=h;
     }
+    
     int minEatingSpeed(vector<int>& piles, int h) {
         int n = piles.size();
         int start = 1;
-        int high = INT_MAX;
+        int high = INT_MIN;
+        for(int i:piles)high=max(high,i);
+
         while(start<high)
         {
             int m=start+(high-start)/2;
