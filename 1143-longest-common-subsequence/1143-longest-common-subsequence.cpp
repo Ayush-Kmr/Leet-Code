@@ -1,7 +1,7 @@
 class Solution {
 public:
     int solve(string& s1, string& s2, int i, int j, vector<vector<int>>& dp) {
-        if (i == 0 || j == 0) {
+        if (i == s1.length() || j == s2.length()) {
             return 0;
         }
 
@@ -9,15 +9,16 @@ public:
             return dp[i][j];
         }
 
-        if (s1[i - 1] == s2[j - 1]) {
-            dp[i][j] = 1 + solve(s1, s2, i - 1, j - 1, dp);
+        int res =0;
+        if (s1[i] == s2[j]) {
+            res = 1 + solve(s1, s2, i + 1, j + 1, dp);
         } else {
-            int op1 = solve(s1, s2, i - 1, j, dp);
-            int op2 = solve(s1, s2, i, j - 1, dp);
-            dp[i][j] = max(op1, op2);
+            int op1 = solve(s1, s2, i + 1, j, dp);
+            int op2 = solve(s1, s2, i, j + 1, dp);
+            res = max(op1, op2);
         }
 
-        return dp[i][j];
+        return dp[i][j] = res;
     }
 
     int longestCommonSubsequence(string text1, string text2) {
@@ -25,6 +26,6 @@ public:
         int m = text2.length();
         vector<vector<int>> dp(n + 1, vector<int>(m + 1, -1));
 
-        return solve(text1, text2, n, m, dp);
+        return solve(text1, text2, 0, 0, dp);
     }
 };
