@@ -16,32 +16,59 @@ public:
     }
     
     
-//     Bottom Up Approach
-    int solveTab (string &s, string &rev){
-        vector<vector<int>>dp(s.length()+1, vector<int>(rev.length()+1,0));
+// //     Bottom Up Approach
+//     int solveTab (string &s, string &rev){
+//         vector<vector<int>>dp(s.length()+1, vector<int>(rev.length()+1,0));
+//         for(int i=s.length()-1; i>=0; i--){
+//             for(int j =rev.length()-1; j>=0; j--){
+//             int res =0;
+//             if(s[i]==rev[j]){
+//             res = 1 + dp[i+1][j+1];
+//         }
+//         else{
+//         int op1 = dp[i+1][j];
+//         int op2 = dp[i][j+1];
+//         res = max(op1,op2);
+//         }
+//         dp[i][j] = res;
+//             }
+//         }
+//         return dp[0][0];
+//     }
+    
+    
+//     Space Optimization
+    int solves(string &s, string &rev){
+        vector<int>curr(rev.length()+1, 0);
+        vector<int>next(s.length()+1,0);
+        
         for(int i=s.length()-1; i>=0; i--){
             for(int j =rev.length()-1; j>=0; j--){
             int res =0;
             if(s[i]==rev[j]){
-            res = 1 + dp[i+1][j+1];
+            res = 1 + next[j+1];
         }
         else{
-        int op1 = dp[i+1][j];
-        int op2 = dp[i][j+1];
+        int op1 = next[j];
+        int op2 = curr[j+1];
         res = max(op1,op2);
         }
-        dp[i][j] = res;
+        curr[j] = res;
             }
+            next = curr;
         }
-        return dp[0][0];
+        return curr[0];
     }
+
     int longestPalindromeSubseq(string s) {
         string rev = s;
         reverse(rev.begin(),rev.end());
         // vector<vector<int>>dp(s.length()+1, vector<int>(rev.length()+1,-1));
         // int ans = solve(s,rev,0,0,dp);
         
-        int ans = solveTab(s,rev);
+        // int ans = solveTab(s,rev);
+        
+        int ans = solves(s,rev);
         return ans;
     }
 };
