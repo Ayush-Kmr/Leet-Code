@@ -1,17 +1,26 @@
 class Solution {
 public:
-    int maxWidthRamp(vector<int>& nums) {
-        int ans  = 0;
-        
-        for(int i=0; i<nums.size()-1; i++){
-            for(int j=nums.size()-1; j>=i; j--){
-                if(nums[i]<= nums[j]){
-                    int res = j - i;
-                    ans = max(ans,res);
-                    break;
-                }
+    int maxWidthRamp(std::vector<int>& nums) {
+        std::stack<int> st;
+        int n = nums.size();
+        int ans = 0;
+
+        // Monotonic decreasing stack to store indices
+        for (int i = 0; i < n; ++i) {
+            if (st.empty() || nums[i] < nums[st.top()]) {
+                st.push(i);
             }
         }
+
+        // Iterate from the end of the array to find the maximum width ramp
+        for (int j = n - 1; j >= 0; --j) {
+            while (!st.empty() && nums[j] >= nums[st.top()]) {
+                int i = st.top();
+                ans = std::max(ans, j - i);
+                st.pop();
+            }
+        }
+
         return ans;
     }
 };
