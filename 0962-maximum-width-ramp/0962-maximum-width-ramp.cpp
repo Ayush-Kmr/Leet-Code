@@ -7,7 +7,7 @@ public:
 
         // Monotonic decreasing stack to store indices
         for (int i = 0; i < n; i++) {
-            if (st.empty() || nums[i] < nums[st.top()]) {
+            if (st.empty() || nums[st.top()] >= nums[i]) {
                 st.push(i);
             }
         }
