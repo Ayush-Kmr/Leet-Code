@@ -10,14 +10,15 @@
  */
 class Solution {
 public:
-    
+    ListNode* temp=NULL;
     ListNode* reverseBetween(ListNode* head, int left, int right) {
         if(head == NULL || right == 1){
+            temp=head->next;
             return head;
         }
         ListNode *ans = reverseBetween(head->next, left-1, right-1);
         if(left<=1){
-            ListNode* temp = head->next->next;
+            // ListNode* temp = head->next->next;
             head->next->next=head;
             head->next=temp;
             return ans;
