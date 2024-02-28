@@ -11,16 +11,17 @@
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        if(!head || !head->next) return head;
+        if(!head || !head->next ) return head;
+       
         map<int,int>freq;
         ListNode* curr = head;
         while(curr){
             freq[curr->val]++;
             curr = curr->next;
         }
-        // cout<<freq[1];
+        
         ListNode* temp = head;
-        ListNode* ans = head;
+        ListNode* ans = NULL;
         for(auto &pair:freq){
             if(pair.second == 1)
               {
@@ -30,7 +31,7 @@ public:
             }
             }
        
-        if(temp==head)return NULL;
+        if(!ans)return NULL;
         ans->next = NULL;
         return head;
     }
