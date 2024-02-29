@@ -11,27 +11,23 @@
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        if(!head || !head->next ) return head;
-       
+        if(!head || !head->next) return head;
         map<int,int>freq;
         ListNode* curr = head;
         while(curr){
             freq[curr->val]++;
             curr = curr->next;
         }
-        
-        ListNode* temp = head;
+        ListNode* temp =head;
         ListNode* ans = NULL;
-        for(auto &pair:freq){
-            if(pair.second == 1)
-              {
+        for(const auto &pair:freq){
+            if(pair.second == 1){
                 temp->val = pair.first;
-                ans=temp;
+                ans = temp;
                 temp = temp->next;
             }
-            }
-       
-        if(!ans)return NULL;
+        }
+        if(!ans) return ans;
         ans->next = NULL;
         return head;
     }
