@@ -6,36 +6,41 @@
  *     ListNode() : val(0), next(nullptr) {}
  *     ListNode(int x) : val(x), next(nullptr) {}
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };   
+ * };
  */
 class Solution {
 public:
+    int size(ListNode* head){
+        int size = 0;
+        while(head){
+            size++;
+            head = head->next;
+        }
+        return size;
+    }
     ListNode* rotateRight(ListNode* head, int k) {
-        if(!head || !head->next )return head;
-        int n =0;
-        ListNode* curr =head;
-        while(curr){
-            curr=curr->next;
-            n++;
+        if(!head || !head->next) return head;
+        int n = size(head);
+        int loop = k%n;
+        loop = n - loop;
+        if(n==1 || loop==n) return head;
+        
+        ListNode* temp = head;
+        ListNode* head2 = head;
+        int j =0;
+        while(temp){
+            j++;
+            if(j == loop){
+                head2 = temp->next;
+                temp->next = NULL;
+            }
+            temp = temp->next;
         }
-        k = k%n;
-        if(k==0)return head;
-        int count = n-k-1;
-        ListNode* tail = head;
-        curr=head;
-        while(count--){
-            
-             curr=curr->next;
+        temp = head2;
+        while(temp->next){
+            temp = temp->next;
         }
-        tail=curr->next;
-        curr->next=NULL;
-        cout<<curr->val;
-        curr=tail;
-         while(curr && curr->next){
-            curr=curr->next;
-            n++;
-        }
-        curr->next=head;
-        return tail;
+        temp->next = head;
+        return head2;
     }
 };
