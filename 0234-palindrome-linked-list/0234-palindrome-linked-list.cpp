@@ -10,13 +10,28 @@
  */
 class Solution {
 public:
-    ListNode* curr=NULL;
-     
+    bool check(vector<int>arr){
+        int s = 0;
+        int e = arr.size()-1;
+        while(s<=e){
+            if(arr[s] == arr[e]){
+                s++;
+                e--;
+            }
+            else{
+                return false;
+            }
+        }
+        return true;
+    }
     bool isPalindrome(ListNode* head) {
-        if(curr==NULL)curr=head;
-        if(head==NULL) return 1;
-        bool ans=isPalindrome(head->next) && curr->val == head->val;
-        curr=curr->next;
-        return ans;
+        vector<int>arr;
+        ListNode* curr = head;
+        while(curr){
+            arr.push_back(curr->val);
+            curr = curr->next;
+        }
+        
+        return check(arr);
     }
 };
