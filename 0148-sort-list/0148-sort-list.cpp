@@ -1,30 +1,46 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
-    ListNode* sortList(ListNode* head) {
-        vector<int>arr;
-        ListNode* curr = head;
-        while(curr){
-            arr.push_back(curr->val);
+    ListNode* middle(ListNode* head) {
+        ListNode* slow = head;
+        ListNode* fast = head->next; // Adjusted fast pointer initialization
+        while (fast && fast->next) {
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        return slow;
+    }
+
+    ListNode* mergeSortedList(ListNode* p, ListNode* q) {
+        if (!p || !q) {
+            return (p == NULL) ? q : p;
+        }
+        ListNode* curr = new ListNode(0);
+        ListNode* ans = curr;
+        while (p && q) {
+            if (p->val < q->val) {
+                curr->next = p;
+                p = p->next;
+            } else {
+                curr->next = q;
+                q = q->next;
+            }
             curr = curr->next;
         }
-        sort(arr.begin(),arr.end());
-        ListNode* ans = head;
-        int i=0;
-        while(ans){
-            ans->val = arr[i];
-            ans = ans->next;
-            i++;
+        if (p || q) {
+            curr->next = (p != NULL) ? p : q;
         }
-        return head;
+        return ans->next;
+    }
+
+    ListNode* sortList(ListNode* head) {
+        if (!head || !head->next) return head;
+        ListNode* mid = middle(head);
+        ListNode* newhead = mid->next;
+        mid->next = NULL;
+
+        ListNode* left_half = sortList(head);
+        ListNode* right_half = sortList(newhead);
+
+        return mergeSortedList(left_half, right_half);
     }
 };
