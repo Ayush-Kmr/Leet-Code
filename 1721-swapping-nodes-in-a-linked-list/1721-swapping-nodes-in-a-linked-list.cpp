@@ -11,25 +11,19 @@
 class Solution {
 public:
     ListNode* swapNodes(ListNode* head, int k) {
-        ListNode* curr = head;
-        int size =0;
-        while(curr){
-            curr = curr->next;
-            size++;
+        ListNode* slow = head;
+        ListNode* fast = head;
+        while(--k){
+            fast = fast->next;
         }
-        int li = size - k;
-        ListNode* st = head;
-        ListNode* ed = head;
-        while(k>1){
-            st = st->next;
-            k--;
-        }
-        while(li>0){
-            ed = ed->next;
-            li--;
+        ListNode* first = fast;
+        while(fast->next){
+            slow = slow->next;
+            fast = fast->next;
         }
         
-        swap(st->val, ed->val);
+        swap(first->val, slow->val);
+        
         return head;
     }
 };
