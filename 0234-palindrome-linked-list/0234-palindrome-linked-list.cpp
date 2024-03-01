@@ -16,6 +16,7 @@ public:
         if(head==NULL) return 1;        
         bool ans = isPalindrome(head->next) && curr->val == head->val;
         curr = curr->next;
+        head = head->next;
         return ans;
     }
 };
