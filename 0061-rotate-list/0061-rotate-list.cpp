@@ -21,16 +21,16 @@ public:
     ListNode* rotateRight(ListNode* head, int k) {
         if(!head || !head->next) return head;
         int n = size(head);
-        int loop = k%n;
-        loop = n - loop;
-        if(n==1 || loop==n) return head;
+        int starting = k%n;
+        starting = n - starting;
+        if(n == 1 || starting == n) return head;
         
         ListNode* temp = head;
         ListNode* head2 = head;
         int j =0;
         while(temp){
             j++;
-            if(j == loop){
+            if(j==starting){
                 head2 = temp->next;
                 temp->next = NULL;
             }
