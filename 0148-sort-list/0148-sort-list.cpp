@@ -2,8 +2,8 @@ class Solution {
 public:
     ListNode* middle(ListNode* head) {
         ListNode* slow = head;
-        ListNode* fast = head->next; // Adjusted fast pointer initialization
-        while (fast && fast->next) {
+        ListNode* fast = head;
+        while (fast->next && fast->next->next) {
             slow = slow->next;
             fast = fast->next->next;
         }
