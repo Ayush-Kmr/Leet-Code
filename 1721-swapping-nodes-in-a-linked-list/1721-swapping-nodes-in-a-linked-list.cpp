@@ -21,9 +21,7 @@ public:
             slow = slow->next;
             fast = fast->next;
         }
-        
         swap(first->val, slow->val);
-        
         return head;
     }
 };
