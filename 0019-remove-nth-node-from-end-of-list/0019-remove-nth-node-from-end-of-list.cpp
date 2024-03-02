@@ -25,30 +25,19 @@ public:
 //     Iterative Solution
      if (!head || n <= 0) return head; // Edge cases
 
-    // Initialize two pointers
     ListNode* slow = head;
     ListNode* fast = head;
-
-    // Move fast pointer n steps ahead
-    for (int i = 0; i < n; i++) {
-        if (!fast) return head; // Invalid n
+    while(n--){
         fast = fast->next;
     }
-
-    // Move both pointers until fast reaches the end
-    ListNode* prev = nullptr;
-    while (fast) {
-        prev = slow;
-        slow = slow->next;
-        fast = fast->next;
+    if(fast == NULL) return slow->next;
+        
+        while(fast->next){
+            slow = slow->next;
+            fast = fast->next;
+        }
+        slow->next = slow->next->next;
+        
+        return head;
     }
-
-    // Remove the nth node from the end
-    if (prev) prev->next = slow->next;
-    else head = slow->next; // If removing the head
-
-    delete slow;
-    return head;
-}
-
 };
