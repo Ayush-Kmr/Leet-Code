@@ -10,12 +10,15 @@
  */
 class Solution {
 public:
-    int size=0;
+    int size =0;
     ListNode* removeNthFromEnd(ListNode* head, int n) {
+//         Recursive Solution
         if(!head) return head;
-         head->next = removeNthFromEnd(head->next,n);
-         size++;
-         if(size==n) return head->next;
-         return head;
+        head->next = removeNthFromEnd(head->next, n);
+        size++;
+        if(size == n){
+            return head->next;
+        }
+        return head;
     }
 };
