@@ -10,6 +10,7 @@
  */
 class Solution {
 public:
+//     Finding the middle of the list
     ListNode* middle(ListNode* head){
         ListNode* slow = head;
         ListNode* fast = head->next;
@@ -20,6 +21,7 @@ public:
         return slow;
     }
     
+//     Merging Two Sorted List
     ListNode* mergeSortedList(ListNode* p, ListNode* q){
         if(!p || !q){
             return (p==NULL) ? q : p;
@@ -43,6 +45,8 @@ public:
         }
         return ans->next;
     }
+    
+    
     ListNode* sortList(ListNode* head) {
         if(!head || !head->next) return head;
         ListNode* mid = middle(head);
