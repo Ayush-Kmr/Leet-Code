@@ -11,6 +11,7 @@
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
+        if(!head || !head->next) return true;
 //         Middle of the list
         ListNode* slow = head;
         ListNode* fast = head;
@@ -19,26 +20,25 @@ public:
             fast = fast->next->next;
         }
         
-//         Reversed the list
+//         Reverse the list
         ListNode* prev = NULL;
-        ListNode* forward = NULL;
         ListNode* curr = slow;
+        ListNode* forward = NULL;
         while(curr && curr->next){
-             forward = curr->next;
-             curr->next = prev;
-             prev = curr;
-             curr = forward;
+            forward = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = forward;
         }
-        if(curr!=NULL ) curr->next = prev;
+//         Edge Case
+        if(curr) curr->next = prev;
         
-//         Checked the bool
+//         Checking the value
         fast = head;
-        while(curr && fast){
-            if(curr->val != fast->val){
-                return false;
-            }
-            curr = curr->next;
+        while(fast && curr){
+            if(fast->val != curr->val) return false;
             fast = fast->next;
+            curr = curr->next;
         }
         return true;
     }
