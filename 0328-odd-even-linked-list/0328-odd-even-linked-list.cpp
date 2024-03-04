@@ -19,18 +19,14 @@ public:
             curr = curr->next;
         }
         if(curr)v.push_back(curr->val);
-        for(auto i: v){
-            cout<<i<<" ";
-        }
-        curr = head->next;
-        
-        for(int i=1; i<v.size(); i++){
+        curr = head->next; 
+        for(int i=2; i<v.size(); i++){
             if(i%2 == 0){
                 curr->val = v[i];
                 curr = curr->next;
             }
         }
-         for(int i=0; i<v.size(); i++){
+         for(int i=1; i<v.size(); i++){
             if(i%2 != 0){
             curr->val = v[i];
             curr = curr->next;
