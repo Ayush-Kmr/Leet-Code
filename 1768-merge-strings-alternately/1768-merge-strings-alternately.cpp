@@ -5,7 +5,7 @@ public:
         int n = word1.length();
         int m = word2.length();
         int i=0,j=0;
-        while(i<n && i<m){
+        while(i<n && j<m){
             ans +=word1[i++];
             ans +=word2[j++];
         }
