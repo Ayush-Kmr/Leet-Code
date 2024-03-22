@@ -11,7 +11,7 @@
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
-        if(!head || !head->next) return true;
+  if(!head || !head->next) return true;
 //         Middle of the list
         ListNode* slow = head;
         ListNode* fast = head;
@@ -23,21 +23,19 @@ public:
         ListNode* prev = NULL;
         ListNode* curr = slow;
         ListNode* forward = NULL;
-        while(curr && curr->next){
+        while(curr){
             forward = curr->next;
             curr->next = prev;
             prev = curr;
             curr = forward;
         }
-//         Edge Case
-        if(curr ) curr->next= prev;
     
 //         Checking plaindrome
         fast = head;
-        while(head && curr){
-            if(fast->val != curr->val) return false;
+        while(head && prev){
+            if(fast->val != prev->val) return false;
             fast =  fast->next;
-            curr = curr->next;
+            prev = prev->next;
         }
         return true;
     }
