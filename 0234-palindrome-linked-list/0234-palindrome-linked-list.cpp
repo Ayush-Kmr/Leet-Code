@@ -31,10 +31,9 @@ public:
         }
     
 //         Checking plaindrome
-        fast = head;
         while(head && prev){
-            if(fast->val != prev->val) return false;
-            fast =  fast->next;
+            if(head->val != prev->val) return false;
+            head =  head->next;
             prev = prev->next;
         }
         return true;
