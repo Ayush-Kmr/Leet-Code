@@ -19,8 +19,7 @@ public:
             slow = slow->next;
             fast = fast->next->next;
         }
-        
-//         Reverse the list
+//         Reverse of the list
         ListNode* prev = NULL;
         ListNode* curr = slow;
         ListNode* forward = NULL;
@@ -31,13 +30,13 @@ public:
             curr = forward;
         }
 //         Edge Case
-        if(curr) curr->next = prev;
-        
-//         Checking the value
+        if(curr ) curr->next= prev;
+    
+//         Checking plaindrome
         fast = head;
-        while(fast && curr){
+        while(head && curr){
             if(fast->val != curr->val) return false;
-            fast = fast->next;
+            fast =  fast->next;
             curr = curr->next;
         }
         return true;
