@@ -19,12 +19,9 @@ public:
     }
 
     vector<int> postorderTraversal(TreeNode* root) {
-                vector<int>ans;
+        vector<int>ans;
         if(!root) return ans;
-        
         helper(root,ans);
-        
         return ans;
-   
     }
 };
