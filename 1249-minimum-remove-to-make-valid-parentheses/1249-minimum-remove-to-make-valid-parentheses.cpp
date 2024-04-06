@@ -1,42 +1,35 @@
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
-        int open_brac =0;
-        int close_brac =0;
-        string ans = "";
-        int n = s.length();
-//         Iterate left to right -> to elemenate extra close bracket
-        for(int i=0; i<n; i++){
-            if(s[i] >= 'a' && s[i]<='z'){
-                ans+=s[i];
+        string temp = "";
+        int open =0;
+        for(int i=0; i<s.length(); i++){
+            if(s[i] == '(' ){
+                open++;
+                temp +=s[i];
             }
-            else if(s[i] == '('){
-                open_brac++;
-                ans+=s[i];
+            else if(s[i] == ')' ){
+                if(open > 0){
+                    open--;
+                    temp += s[i];
+                }
             }
-            else if(open_brac > 0){
-                open_brac--;
-                ans+=s[i];
+            else{
+                temp +=s[i];
             }
         }
         
-        n = ans.length();
-        string result = "";
-//         Iterate right to left -> to elemenate extra open bracket
-        for(int i=n-1; i>=0; i--){
-            if(ans[i]>='a' && ans[i]<='z'){
-                result += ans[i];
+        string final_result = "";
+        for(int i=temp.length()-1; i>=0; i--){
+            if(temp[i] == '(' && open > 0){
+                open--;
             }
-            else if(ans[i] == ')'){
-                close_brac++;
-                result += ans[i];
-            }
-            else if(close_brac > 0){
-                close_brac--;
-                result+= ans[i];
+            else{
+                final_result += temp[i];
             }
         }
-        reverse(result.begin(), result.end());
-        return result;
+        reverse(final_result.begin(), final_result.end());
+        
+        return final_result;
     }
 };
