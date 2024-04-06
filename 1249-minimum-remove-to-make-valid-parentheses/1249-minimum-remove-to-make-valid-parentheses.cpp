@@ -1,34 +1,42 @@
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
-        stack<int>st;
-        unordered_set<int>rs;
-        for(int i=0; i<s.length(); i++){
-            if(s[i]=='('){
-                st.push(i);
-            }
-            else if(s[i] == ')'){
-                if(st.empty()){
-                    rs.insert(i);
-                }
-                else{
-                    st.pop();
-                }
-            }
-        }
-        while(!st.empty()){
-            rs.insert(st.top());
-            st.pop();
-        }
-        string ans ="";
-        for(int i=0; i<s.length(); i++){
-            if(rs.find(i) == rs.end()){
+        int open_brac =0;
+        int close_brac =0;
+        string ans = "";
+        int n = s.length();
+//         Iterate left to right -> to elemenate extra close bracket
+        for(int i=0; i<n; i++){
+            if(s[i] >= 'a' && s[i]<='z'){
                 ans+=s[i];
             }
-            else{
-                rs.erase(i);
+            else if(s[i] == '('){
+                open_brac++;
+                ans+=s[i];
+            }
+            else if(open_brac > 0){
+                open_brac--;
+                ans+=s[i];
             }
         }
-        return ans;
+        
+        n = ans.length();
+        string result = "";
+//         Iterate right to left -> to elemenate extra open bracket
+        for(int i=n-1; i>=0; i--){
+            if(ans[i]>='a' && ans[i]<='z'){
+                result += ans[i];
+            }
+            else if(ans[i] == ')'){
+                close_brac++;
+                result += ans[i];
+            }
+            else if(close_brac > 0){
+                close_brac--;
+                result+= ans[i];
+            }
+        }
+        reverse(result.begin(), result.end());
+        return result;
     }
 };
