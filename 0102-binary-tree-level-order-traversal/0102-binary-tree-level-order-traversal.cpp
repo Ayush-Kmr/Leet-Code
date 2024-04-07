@@ -16,7 +16,7 @@ public:
         queue<TreeNode*>q;
         q.push(root);
         if(!root) return ans;
-        while(1){
+        while(!q.empty()){
             int size = q.size();
             if(size == 0) return ans;
             vector<int>data;
