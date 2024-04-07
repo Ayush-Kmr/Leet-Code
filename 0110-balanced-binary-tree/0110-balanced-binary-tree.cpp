@@ -11,25 +11,18 @@
  */
 class Solution {
 public:
-    
-    int height(TreeNode* root){
-        if(root == NULL) return 0;
-        else return 1+ max(height(root->left),height(root->right));
-    }
-    
-    void inorder_helper(TreeNode* root, bool&ans){
-        if(root){
-        inorder_helper(root->left,ans);
-        int left_height = height(root->left);
-        int right_height = height(root->right);
-        int diff = abs(left_height - right_height);
-        if(diff >1) ans = ans && false;
-        inorder_helper(root->right,ans);
-        }    
+    int helper(TreeNode* root, bool &balanced){
+        if(!root) return 0;
+        int left_height = helper(root->left, balanced);
+        int right_height = helper(root->right, balanced);
+        if(abs(left_height - right_height)>1) balanced = false;
+        
+        return 1 + max(left_height, right_height);
     }
     bool isBalanced(TreeNode* root) {
-        bool ans = true;
-        inorder_helper(root, ans);
-        return ans;
+        if(!root) return true;
+        bool balanced = true;
+        helper(root, balanced);
+        return balanced;
     }
 };
