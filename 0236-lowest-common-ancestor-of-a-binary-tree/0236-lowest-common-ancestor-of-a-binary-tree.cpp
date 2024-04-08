@@ -20,7 +20,7 @@ public:
         return false;
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if (!root) return NULL;
+        // if (!root) return NULL;
         vector<TreeNode*>path1, path2;
         if(!findPath(root,path1,p) || !findPath(root,path2,q)) return NULL;
         TreeNode* ans = NULL;
