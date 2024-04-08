@@ -20,13 +20,13 @@ public:
         return false;
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        // if (!root) return NULL;
+        if (!root) return NULL;
         vector<TreeNode*>path1, path2;
         if(!findPath(root,path1,p) || !findPath(root,path2,q)) return NULL;
         TreeNode* ans = NULL;
          int i = 0;
-        while (i < path1.size() && i < path2.size() && path1[i] == path2[i]) {
-            ans = path1[i];
+        while (i < path1.size() && i < path2.size()) {
+            if(path1[i] == path2[i]) ans = path1[i];
             i++;
         }
         
