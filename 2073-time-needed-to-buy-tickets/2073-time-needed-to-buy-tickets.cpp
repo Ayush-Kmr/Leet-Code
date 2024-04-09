@@ -3,16 +3,14 @@ public:
     int timeRequiredToBuy(vector<int>& tickets, int k) {
         int n = tickets.size();
         int count =0;
-        while(tickets[k]!=0){
-            for(int i=0; i<n; i++){
-                int value = tickets[i];
-                if(value>0 && tickets[k]!=0){
-                    value--;
-                    tickets[i] = value;
-                    count++;
-                }
-            }
+        int s=0;
+        int value = tickets[k];
+        for(int i=0; i<n; i++){
+            if(value>= tickets[i]) count+= tickets[i];
+            else if(value< tickets[i]) count+=value;
+            
+              if(i>k && tickets[i]>=tickets[k])s++;
         }
-        return count;
+        return count-s;
     }
 };
