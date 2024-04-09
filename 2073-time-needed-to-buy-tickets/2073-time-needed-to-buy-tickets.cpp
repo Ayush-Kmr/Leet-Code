@@ -8,8 +8,7 @@ public:
         for(int i=0; i<n; i++){
             if(value>= tickets[i]) count+= tickets[i];
             else if(value< tickets[i]) count+=value;
-            
-              if(i>k && tickets[i]>=tickets[k])s++;
+            if(i>k && tickets[i]>=value)s++;
         }
         return count-s;
     }
