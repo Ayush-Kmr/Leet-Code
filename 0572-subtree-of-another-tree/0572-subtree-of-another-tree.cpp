@@ -11,19 +11,17 @@
  */
 class Solution {
 public:
+    
     bool check(TreeNode* node1, TreeNode* node2){
-        if(node1==NULL && node2 == NULL) return true;
-        if(!node1 || !node2 ) return false;
+        if(!node1 && !node2) return true;
+        if(!node1 || !node2) return false;
         if(node1->val != node2->val) return false;
-        
-        return check(node1->left,node2->left)  && check(node1->right,node2->right);
-        
-        
+        return check(node1->left , node2->left) && check(node1->right,node2->right);
     }
     bool isSubtree(TreeNode* root, TreeNode* subRoot) {
-        if(root == NULL) return false;
-        if(check(root,subRoot))return true;
+        if(!root) return false;
+        if(check(root,subRoot)) return true;
         
-        return (isSubtree(root->left,subRoot) || isSubtree(root->right,subRoot));
+        return isSubtree(root->left,subRoot) || isSubtree(root->right,subRoot);
     }
 };
