@@ -1,7 +1,6 @@
 class Solution {
 public:
-    bool isValidPath(int row,int col, int i, int j,int pos, string word){
-        if(pos == word.size()) return true;
+    bool isValidPath(int row,int col, int i, int j){
         if(i<row && i>=0 && j>=0 && j<col) return true;
         return false;
     }
@@ -16,10 +15,10 @@ public:
         char temp = board[i][j];
         board[i][j] = ' ';
         bool ans = false;
-        if(isValidPath(row,col,i+1,j, pos,  word)) ans |= solve(board,word,i+1,j,pos+1);
-        if(isValidPath(row,col,i-1,j, pos,  word)) ans |= solve(board,word,i-1,j,pos+1);
-        if(isValidPath(row,col,i,j+1, pos,  word)) ans |= solve(board,word,i,j+1,pos+1);
-        if(isValidPath(row,col,i,j-1, pos,  word)) ans |= solve(board,word,i,j-1,pos+1);
+        if(isValidPath(row,col,i+1,j)) ans |= solve(board,word,i+1,j,pos+1);
+        if(isValidPath(row,col,i-1,j)) ans |= solve(board,word,i-1,j,pos+1);
+        if(isValidPath(row,col,i,j+1)) ans |= solve(board,word,i,j+1,pos+1);
+        if(isValidPath(row,col,i,j-1)) ans |= solve(board,word,i,j-1,pos+1);
         if(temp == word[pos]) ans |= solve(board,word,i,j,pos+1);
         board[i][j] = temp;
         return ans;
