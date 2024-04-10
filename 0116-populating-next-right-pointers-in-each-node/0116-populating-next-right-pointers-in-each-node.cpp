@@ -40,7 +40,8 @@ public:
                 if(temp->left) q.push(temp->left);
                 if(temp->right) q.push(temp->right);
                 size--;
-            }            
+            }
+            root->next = NULL;
         }
         return root;
     }
