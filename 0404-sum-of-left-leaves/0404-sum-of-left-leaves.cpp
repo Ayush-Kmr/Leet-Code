@@ -11,21 +11,17 @@
  */
 class Solution {
 public:
-    void helper(TreeNode* root, int &sum, int dir){
-        if(!root) return ;
-        
-        if(!root->left && !root->right && dir==1){
+    void solve(TreeNode* root, int &sum, int dir){
+        if(!root) return;
+        if(!root->left && !root->right && dir ==1){
             sum+=root->val;
         }
-        
-        helper(root->left,sum,1);
-        helper(root->right,sum,2);
-        
+        solve(root->left,sum,1);
+        solve(root->right,sum,0);
     }
     int sumOfLeftLeaves(TreeNode* root) {
-        int sum=0;
-        helper(root,sum,0);
-        
+        int sum =0;
+        solve(root,sum,0);
         return sum;
     }
 };
