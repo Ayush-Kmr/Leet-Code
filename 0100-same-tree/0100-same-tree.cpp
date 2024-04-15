@@ -14,9 +14,9 @@ public:
     bool check(TreeNode* p, TreeNode* q){
         if(!p && !q) return true;
         if(!p || !q) return false;
-        if(p->val != q->val)  return false;
-        bool ans1 = check(p->left,q->left);
-        bool ans2 = check(p->right,q->right);
+        if(p->val != q->val) return false;
+        bool ans1 = check(p->left, q->left);
+        bool ans2 = check(p->right, q->right);
         return ans1 && ans2;
     }
     bool isSameTree(TreeNode* p, TreeNode* q) {
