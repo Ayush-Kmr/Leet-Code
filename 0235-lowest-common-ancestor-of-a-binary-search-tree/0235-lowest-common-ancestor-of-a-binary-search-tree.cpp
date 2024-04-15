@@ -10,14 +10,25 @@
 
 class Solution {
 public:
+     bool findPath(TreeNode* root, TreeNode* value, vector<TreeNode*>&path){
+        if(!root) return false;
+        path.push_back(root);
+        if(root == value) return true;
+        if(findPath(root->left,value,path) || findPath(root->right,value,path))
+            return true;
+        path.pop_back();
+        return false;
+    }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if(p==root || q== root) return root;
-        if(p->val <root->val && q->val < root->val){
-            return lowestCommonAncestor(root->left, p, q);
+        if(!root) return NULL;
+        vector<TreeNode*>path1,path2;
+        if(!findPath(root,p,path1) || !findPath(root,q,path2)) return NULL;
+        TreeNode* ans = NULL;
+        int i=0;
+        while(i<path1.size() && i<path2.size()){
+            if(path1[i] == path2[i]) ans = path1[i];
+            i++;
         }
-         if(p->val >root->val && q->val > root->val){
-            return lowestCommonAncestor(root->right, p, q);
-        }
-        return root;
+        return ans;
     }
 };
