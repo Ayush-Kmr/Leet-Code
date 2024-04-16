@@ -40,7 +40,7 @@ public:
                 if(temp->right)q.push(temp->right);
             }
             depth--;
-            // if(depth == 1) break;
+            if(depth == 1) break;
         }
         return root;
     }
