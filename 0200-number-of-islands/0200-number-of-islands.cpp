@@ -1,0 +1,35 @@
+class Solution {
+public:
+    
+    bool check(int i, int j, int  row, int col){
+        return (i>=0 && i<row && j>=0 && j<col);
+    }
+    int find(vector<vector<char>>& grid,int i, int j,int count){
+        int row = grid.size();
+        int col = grid[0].size();
+        int val = grid[i][j];
+        if(val == '0') return 0;
+        int ans =1;
+        grid[i][j] = '0';
+        if(check(i-1,j,row,col)) ans+=find(grid,i-1,j,count);
+        if(check(i+1,j,row,col)) ans+=find(grid,i+1,j,count);
+        if(check(i,j+1,row,col)) ans+=find(grid,i,j+1,count);
+        if(check(i,j-1,row,col)) ans+=find(grid,i,j-1,count);
+        
+        return ans;
+        
+    }
+    int numIslands(vector<vector<char>>& grid) {
+        int count =1;
+        int ans =0;
+        for(int i=0; i<grid.size(); i++){
+            for(int j=0; j<grid[0].size(); j++){
+                if(grid[i][j]=='1'){
+               if (find(grid,i,j,count)>0)
+                  ans++;
+                }
+            }
+        }
+        return ans;
+    }
+};
