@@ -8,15 +8,18 @@ public:
         int row = grid.size();
         int col = grid[0].size();
         int val = grid[i][j];
-        if(val == '0') return 0;
-        int ans =1;
-        grid[i][j] = '0';
-        if(check(i-1,j,row,col)) ans+=find(grid,i-1,j,count);
-        if(check(i+1,j,row,col)) ans+=find(grid,i+1,j,count);
-        if(check(i,j+1,row,col)) ans+=find(grid,i,j+1,count);
-        if(check(i,j-1,row,col)) ans+=find(grid,i,j-1,count);
         
-        return ans;
+        if(val == '0'){
+            count +=1;
+            return count;
+        }
+        grid[i][j] = '0';
+        if(check(i-1,j,row,col)) find(grid,i-1,j,count);
+        if(check(i+1,j,row,col)) find(grid,i+1,j,count);
+        if(check(i,j+1,row,col)) find(grid,i,j+1,count);
+        if(check(i,j-1,row,col)) find(grid,i,j-1,count);
+        
+        return count;
         
     }
     int numIslands(vector<vector<char>>& grid) {
@@ -25,8 +28,8 @@ public:
         for(int i=0; i<grid.size(); i++){
             for(int j=0; j<grid[0].size(); j++){
                 if(grid[i][j]=='1'){
-               if (find(grid,i,j,count)>0)
-                  ans++;
+                    find(grid,i,j,count);
+                  ans ++;
                 }
             }
         }
