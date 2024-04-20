@@ -3,7 +3,7 @@ public:
     vector<vector<int>> ans;
 
     bool path(int i, int j, int row, int col) {
-        return (i >= 0 && i < row && j >= 0 && j < col); // Corrected boundary conditions
+        return (i >= 0 && i < row && j >= 0 && j < col); 
     }
 
     void find(vector<vector<int>>& land, int i, int j, int& r1, int& c1, int& r2, int& c2) {
@@ -11,8 +11,7 @@ public:
         int col = land[0].size();
         land[i][j] = 0;
 
-        r2 = max(r2, i);
-        c2 = max(c2, j);
+        
         if (path(i - 1, j, row, col) && land[i - 1][j] == 1) 
             find(land, i - 1, j, r1, c1, r2, c2);
         
@@ -27,6 +26,8 @@ public:
         
         r1 = min(r1, i);
         c1 = min(c1, j);
+        r2 = max(r2, i);
+        c2 = max(c2, j);
     }
 
     vector<vector<int>> findFarmland(vector<vector<int>>& land) {
