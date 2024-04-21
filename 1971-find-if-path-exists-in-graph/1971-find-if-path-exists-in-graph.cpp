@@ -1,17 +1,17 @@
 class Solution {
 public:
-    bool go( unordered_map<int,vector<int>>&mp, int i, int d,vector<bool>&v,int c,int n)
+    bool go( unordered_map<int,vector<int>>&mp, int i, int d,vector<bool>&v)
     {
         if(i==d)return 1;
         if(v[i])return 0;
-        if(c>n)return 0;
+        
         
         v[i]=1;
         
         bool ans=0;
         
         for(auto j : mp[i])
-            ans|=go(mp,j,d,v,c+1,n);
+            ans|=go(mp,j,d,v);
         
         return ans;
         
@@ -28,7 +28,7 @@ public:
         }
         vector<bool>v(n,0);
      
-        return go(mp,s,d,v,0,n);
+        return go(mp,s,d,v);
     }
 };
    
