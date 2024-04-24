@@ -1,26 +1,25 @@
 class Solution {
 public:
-    bool isValid(int row, int col, int i, int j){
-        return (i >= 0 && i < row && j >= 0 && j < col);
+    bool check(int row, int col, int i, int j){
+        return (i>=0 && i<row && j>=0 && j<col);
     }
     
-void fill(vector<vector<int>>& image, int sr, int sc, int newColor, int originalColor) {
-if(!isValid(image.size(), image[0].size(), sr, sc) || image[sr][sc] != originalColor) {
-            return;
-        }
+    void solve(vector<vector<int>>& image, int sr, int sc, int color, int originColor){
+        int row = image.size();
+        int col = image[0].size();
+        if(!check(row,col, sr,sc)) return ;
+        if(image[sr][sc] != originColor) return ;
+        image[sr][sc] = color;
         
-        image[sr][sc] = newColor;
-        
-        fill(image, sr + 1, sc, newColor, originalColor);
-        fill(image, sr - 1, sc, newColor, originalColor);
-        fill(image, sr, sc + 1, newColor, originalColor);
-        fill(image, sr, sc - 1, newColor, originalColor);
+        solve(image,sr+1,sc,color,originColor);
+        solve(image,sr-1,sc,color,originColor);
+        solve(image,sr,sc+1,color,originColor);
+        solve(image,sr,sc-1,color,originColor);
     }
-
-vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {
-        int originalColor = image[sr][sc];
-        if (originalColor != newColor) {
-            fill(image, sr, sc, newColor, originalColor);
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
+        int originColor = image[sr][sc];
+        if(image[sr][sc] != color) {
+            solve(image, sr,sc,color,originColor);
         }
         return image;
     }
