@@ -10,30 +10,13 @@
  */
 class Solution {
 public:
-ListNode* middleNode(ListNode* head) {
-//     First Approach
-    // if (!head || !head->next) return head;
-    // int n = 0;
-    // ListNode* curr = head;
-    // while (curr) {
-    //     curr = curr->next;
-    //     n++;
-    // }
-    // int count = 0;
-    // curr = head;
-    //     while (count != (n / 2)) {
-    //         curr = curr->next;
-    //         count++;
-    //     }
-    //     return curr;
-    
-//     Optimal Approach
-    ListNode* slow =head;
-    ListNode* fast =head;
-    while(fast && fast->next){
-        slow = slow->next;
-        fast = fast->next->next;
+    ListNode* middleNode(ListNode* head) {
+        ListNode* slow = head;
+        ListNode* fast = head;
+        while(fast && fast->next){
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        return slow;
     }
-    return slow;
-}
 };
