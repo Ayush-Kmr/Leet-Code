@@ -7,7 +7,7 @@ public:
         k--;
         sum += h[0];
         while (i < h.size() && k > 0) {
-            if ((h[i] - i) > 0 && k > 0) {
+            if ((h[i] - i) > 0) {
                 sum += h[i] - i;
                 k--;
             }
