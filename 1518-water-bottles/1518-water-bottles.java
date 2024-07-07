@@ -6,7 +6,6 @@ class Solution {
             numBottles -= numExchange;
             numBottles++;
         }
-        if(numBottles < numExchange) consumed += numBottles;
-        return consumed;
+        return consumed += numBottles;
     }
 }
