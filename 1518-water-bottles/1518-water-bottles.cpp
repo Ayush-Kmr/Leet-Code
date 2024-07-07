@@ -7,7 +7,6 @@ public:
             numBottles -= numExchange;
             numBottles+=1;
         }
-        if(numBottles < numExchange) consumed+=numBottles;
-        return consumed;
+        return consumed+numBottles;
     }
 };
