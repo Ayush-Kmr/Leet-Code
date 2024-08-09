@@ -34,9 +34,9 @@ public:
             if (grid[i][j + 2] + grid[i + 1][j + 1] + grid[i + 2][j] != sum) return;
 
             // Check if all numbers are distinct and from 1 to 9
-            if (unique_values.size() == 9 && all_of(values.begin(), values.end(), [](int x) { return x >= 1 && x <= 9; })) {
-                count++;
-            }
+            if (unique_values.size() == 9 &&
+            all_of(values.begin(), values.end(), [](int x) 
+                   { return x >= 1 && x <= 9; })){count++;}
         }
     }
 
