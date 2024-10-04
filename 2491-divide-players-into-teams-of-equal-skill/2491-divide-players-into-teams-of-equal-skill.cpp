@@ -13,9 +13,7 @@ public:
             long long temp = skill[i] + skill[j];
             if(temp != prev && prev!=0) return -1;
             prev = temp;
-            sum += static_cast<long long>(skill[i]) * skill[j]; 
-            i++;
-            j--;
+            sum += static_cast<long long>(skill[i++]) * skill[j--]; 
         }
         
         return sum;
