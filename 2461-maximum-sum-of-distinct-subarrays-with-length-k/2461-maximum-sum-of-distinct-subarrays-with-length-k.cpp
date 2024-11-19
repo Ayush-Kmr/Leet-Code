@@ -1,28 +1,29 @@
 class Solution {
 public:
     long long maximumSubarraySum(vector<int>& nums, int k) {
-        int n = nums.size();
-        std::set<int> st;
-        long long sum = INT_MIN;
-        long long temp = 0;
-
-        int left = 0;
-        for (int right = 0; right < n; right++) {
-            while (st.find(nums[right]) != st.end()) {
+        long long n = nums.size();
+        long long left = 0, right = 0;
+        set<long long>st;
+        long long ans = INT_MIN, sum =0;
+        
+        for(; right<n; right++){
+            
+            while(st.find(nums[right]) != st.end()){
+                sum -= nums[left];
                 st.erase(nums[left]);
-                temp -= nums[left];
                 left++;
             }
-            st.insert(nums[right]);
-            temp += nums[right];
-            if (right - left + 1 == k) {
-                sum = std::max(sum, temp);
+            
+                sum += nums[right];
+                st.insert(nums[right]);
+            
+            if((right - left) + 1  == k){
+                ans = max(sum, ans);
+                sum -= nums[left];
                 st.erase(nums[left]);
-                temp -= nums[left];
                 left++;
             }
         }
-
-        return sum == INT_MIN ? 0 : sum;
+        return ans == INT_MIN ? 0 : ans;
     }
 };
