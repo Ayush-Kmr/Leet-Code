@@ -19,12 +19,6 @@ It’s a collection of solutions I’ve written while improving my **data struct
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=1ABC9C&center=true&vCenter=true&width=600&lines=Ayush+Kumar's+LeetCode+Journey;450%2B+DSA+Questions+Solved;Building+Logic+Everyday+🔥;Striving+for+Perfection+in+Code+💻)](https://git.io/typing-svg)
 
 
+![Code Rain](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzdhdnQ1M3FlYWFyNzYyNmN2Z2ptM2hhdmNhYjJrdHJ6Y3Q1emVnMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Y8l4UQ1P1Kz2U/giphy.gif)
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ayush-kmr&theme=tokyonight" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ayush-kmr&show_icons=true&theme=tokyonight" alt="Ayush's GitHub Stats" />
-</p>
 
