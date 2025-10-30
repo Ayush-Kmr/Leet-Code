@@ -15,3 +15,7 @@ It’s a collection of solutions I’ve written while improving my **data struct
 
 </div>
 
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=1ABC9C&center=true&vCenter=true&width=600&lines=Ayush+Kumar's+LeetCode+Journey;450%2B+DSA+Questions+Solved;Building+Logic+Everyday+🔥;Striving+for+Perfection+in+Code+💻)](https://git.io/typing-svg)
+
+
