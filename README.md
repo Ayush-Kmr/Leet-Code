@@ -28,7 +28,7 @@ Each solution is written with clarity, proper comments, and efficient algorithms
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=1ABC9C&center=true&vCenter=true&width=600&lines=450%2B+Problems+Solved;Focused+on+DSA+and+Optimization;Consistent+Every+Day+💪)](https://git.io/typing-svg)
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/ayu_kmr?theme=dark&ext=contest&border=1)
+![LeetCode Badge](https://img.shields.io/badge/LeetCode-450%2B_Solved-orange?style=for-the-badge&logo=leetcode&logoColor=white)
 
 </div>
 
