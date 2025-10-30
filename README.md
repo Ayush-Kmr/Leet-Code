@@ -59,24 +59,4 @@ LeetCode • GFG • Visual Studio Code • GitHub
 
 ---
 
-### 📈 Connect With Me
-
-<p align="center">
-  <a href="https://github.com/ayush-kmr">
-    <img src="https://img.shields.io/badge/GitHub-ayush--kmr-black?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://www.linkedin.com/in/ayu-kmr/">
-    <img src="https://img.shields.io/badge/LinkedIn-Ayush%20Kumar-blue?style=for-the-badge&logo=linkedin" />
-  </a>
-  <a href="mailto:ayushkmr.dev@gmail.com">
-    <img src="https://img.shields.io/badge/Email-ayushkmr.dev%40gmail.com-red?style=for-the-badge&logo=gmail" />
-  </a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzdhdnQ1M3FlYWFyNzYyNmN2Z2ptM2hhdmNhYjJrdHJ6Y3Q1emVnMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Y8l4UQ1P1Kz2U/giphy.gif" width="600" alt="Code Rain Animation"/>
-</p>
-
 <h3 align="center">✨ Keep Learning. Keep Building. Keep Growing. ✨</h3>
