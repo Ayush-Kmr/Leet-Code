@@ -11,6 +11,6 @@ public:
     int coinChange(vector<int>& coins, int amount) {
         vector<int>dp(amount+1, -1);
         int ans = solve(coins, amount, dp);
-        return (ans >= 1e9) ? -1 : ans;
+        return (ans == 1e9) ? -1 : ans;
     }
 };
