@@ -10,30 +10,45 @@
  * };
  */
 class Solution {
-public:
-    set<int> st; 
+    queue<TreeNode*> q;
 
-    TreeNode* deleteHelper(TreeNode* root, vector<TreeNode*>& ans) {
-        if(!root) return NULL;
-
-        root->left = deleteHelper(root->left, ans);
-        root->right = deleteHelper(root->right, ans);
-        if(st.find(root->val) != st.end()){
-            if(root->left!= NULL) ans.push_back(root->left);
-            if(root->right!=NULL) ans.push_back(root->right);
-            return NULL;
+    bool match(vector<int>& to_delete, int value){
+        for(auto i: to_delete){
+            if(i==value) return true;
         }
-        return root;
+        return false;
     }
 
+public:
+    void solve(TreeNode* root, vector<int>& to_delete,TreeNode* prev){
+        if(root==NULL){
+            return;
+        }
+        if(match(to_delete,root->val)){
+            if(root->left) q.push(root->left);  
+            if(root->right) q.push(root->right);  
+            if(prev){
+            if(prev->left == root) prev->left = NULL;
+            else prev->right = NULL;
+            }
+        }
+        else{
+            solve(root->left, to_delete, root);
+            solve(root->right, to_delete, root);
+        }
+    }
     vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
-        vector<TreeNode*> ans;
-        for (auto i : to_delete) st.insert(i);
-
-        root = deleteHelper(root, ans);
-
-        if (root && st.find(root->val) == st.end()) ans.push_back(root);
-
+        if(!root) return {};
+        vector<TreeNode*>ans;
+        q.push(root);
+        while(!q.empty()){
+            TreeNode* value = q.front();
+            q.pop();
+            if(!match(to_delete, value->val)){
+            ans.push_back(value);
+            }
+            solve(value,to_delete,NULL);
+        }
         return ans;
     }
 };
