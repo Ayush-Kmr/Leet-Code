@@ -44,9 +44,7 @@ public:
         while(!q.empty()){
             TreeNode* value = q.front();
             q.pop();
-            if(!match(to_delete, value->val)){
-            ans.push_back(value);
-            }
+            if(!match(to_delete, value->val)) ans.push_back(value);
             solve(value,to_delete,NULL);
         }
         return ans;
