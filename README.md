@@ -67,4 +67,16 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [1633-percentage-of-users-attended-a-contest](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1633-percentage-of-users-attended-a-contest) |
+## Array
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0073-set-matrix-zeroes) |
+## Hash Table
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0073-set-matrix-zeroes) |
+## Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
