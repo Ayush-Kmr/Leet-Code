@@ -70,6 +70,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0031-next-permutation) |
 | [0073-set-matrix-zeroes](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0073-set-matrix-zeroes) |
 | [0118-pascals-triangle](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0118-pascals-triangle) |
 ## Hash Table
@@ -84,4 +85,8 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [0118-pascals-triangle](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0118-pascals-triangle) |
+## Two Pointers
+|  |
+| ------- |
+| [0031-next-permutation](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0031-next-permutation) |
 <!---LeetCode Topics End-->
