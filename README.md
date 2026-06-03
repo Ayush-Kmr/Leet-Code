@@ -75,6 +75,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0053-maximum-subarray](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Hash Table
@@ -97,6 +98,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | ------- |
 | [0031-next-permutation](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0088-merge-sorted-array) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -105,6 +107,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0088-merge-sorted-array) |
 ## Math
 |  |
 | ------- |
