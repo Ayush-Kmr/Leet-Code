@@ -71,6 +71,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0001-two-sum) |
+| [0018-4sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0053-maximum-subarray) |
@@ -106,6 +107,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 ## Two Pointers
 |  |
 | ------- |
+| [0018-4sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0088-merge-sorted-array) |
@@ -118,6 +120,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 ## Sorting
 |  |
 | ------- |
+| [0018-4sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0169-majority-element) |
