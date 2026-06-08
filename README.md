@@ -88,6 +88,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0073-set-matrix-zeroes](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0229-majority-element-ii) |
@@ -148,4 +149,12 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0062-unique-paths) |
+## String
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0003-longest-substring-without-repeating-characters) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
