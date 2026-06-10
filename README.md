@@ -131,6 +131,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0062-unique-paths) |
 ## Binary Search
@@ -162,6 +163,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0206-reverse-linked-list) |
@@ -170,6 +172,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
