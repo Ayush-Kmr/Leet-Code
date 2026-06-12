@@ -117,6 +117,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0088-merge-sorted-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0160-intersection-of-two-linked-lists) |
+| [0234-palindrome-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0287-find-the-duplicate-number) |
 | [0876-middle-of-the-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0876-middle-of-the-linked-list) |
 ## Divide and Conquer
@@ -174,6 +175,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0141-linked-list-cycle](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0237-delete-node-in-a-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0876-middle-of-the-linked-list) |
 ## Recursion
@@ -183,4 +185,9 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0021-merge-two-sorted-lists](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0025-reverse-nodes-in-k-group) |
 | [0206-reverse-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0234-palindrome-linked-list) |
+## Stack
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
