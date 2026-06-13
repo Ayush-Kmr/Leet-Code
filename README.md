@@ -113,6 +113,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0018-4sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0031-next-permutation](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0031-next-permutation) |
+| [0061-rotate-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0141-linked-list-cycle) |
@@ -172,6 +173,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0025-reverse-nodes-in-k-group) |
+| [0061-rotate-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0206-reverse-linked-list) |
