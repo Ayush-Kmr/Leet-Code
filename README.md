@@ -80,6 +80,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0074-search-a-2d-matrix](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0088-merge-sorted-array) |
+| [0090-subsets-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0090-subsets-ii) |
 | [0118-pascals-triangle](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0169-majority-element) |
@@ -154,6 +155,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 ## Bit Manipulation
 |  |
 | ------- |
+| [0090-subsets-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0090-subsets-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0287-find-the-duplicate-number) |
 ## Counting
 |  |
@@ -203,4 +205,8 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0322-coin-change) |
+## Backtracking
+|  |
+| ------- |
+| [0090-subsets-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
