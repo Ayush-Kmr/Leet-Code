@@ -74,6 +74,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0018-4sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0031-next-permutation) |
+| [0037-sudoku-solver](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0053-maximum-subarray) |
@@ -95,6 +96,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | ------- |
 | [0001-two-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0037-sudoku-solver](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0073-set-matrix-zeroes) |
 | [0138-copy-list-with-random-pointer](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0141-linked-list-cycle) |
@@ -104,6 +106,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0074-search-a-2d-matrix) |
@@ -211,6 +214,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0046-permutations) |
 | [0090-subsets-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
