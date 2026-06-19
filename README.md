@@ -91,6 +91,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0322-coin-change](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0485-max-consecutive-ones) |
+| [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
 ## Hash Table
 |  |
 | ------- |
@@ -103,6 +104,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0160-intersection-of-two-linked-lists](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0229-majority-element-ii) |
+| [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
 ## Matrix
 |  |
 | ------- |
@@ -211,10 +213,15 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0322-coin-change) |
+| [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
 ## Backtracking
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0046-permutations) |
 | [0090-subsets-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0090-subsets-ii) |
+## Depth-First Search
+|  |
+| ------- |
+| [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
 <!---LeetCode Topics End-->
