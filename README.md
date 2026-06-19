@@ -85,6 +85,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0090-subsets-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0090-subsets-ii) |
 | [0118-pascals-triangle](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0229-majority-element-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0287-find-the-duplicate-number) |
@@ -100,6 +101,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0037-sudoku-solver](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0073-set-matrix-zeroes) |
 | [0138-copy-list-with-random-pointer](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0169-majority-element) |
@@ -119,6 +121,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0062-unique-paths](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0062-unique-paths) |
 | [0118-pascals-triangle](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0416-partition-equal-subset-sum) |
 ## Two Pointers
@@ -178,6 +181,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0139-word-break](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0139-word-break) |
 ## Sliding Window
 |  |
 | ------- |
@@ -224,4 +228,12 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0139-word-break) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
