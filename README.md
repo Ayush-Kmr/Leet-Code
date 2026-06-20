@@ -74,6 +74,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0018-4sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0033-search-in-rotated-sorted-array) |
 | [0037-sudoku-solver](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0048-rotate-image) |
@@ -161,6 +162,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0074-search-a-2d-matrix) |
 | [0287-find-the-duplicate-number](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0287-find-the-duplicate-number) |
 ## Bit Manipulation
