@@ -93,6 +93,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0229-majority-element-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0229-majority-element-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0485-max-consecutive-ones) |
 | [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
@@ -109,6 +110,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0160-intersection-of-two-linked-lists](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0347-top-k-frequent-elements) |
 | [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
 ## Matrix
 |  |
@@ -149,6 +151,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0053-maximum-subarray](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0347-top-k-frequent-elements) |
 ## Sorting
 |  |
 | ------- |
@@ -158,6 +161,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0169-majority-element](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0347-top-k-frequent-elements) |
 ## Math
 |  |
 | ------- |
@@ -181,6 +185,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | ------- |
 | [0169-majority-element](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0347-top-k-frequent-elements) |
 ## Combinatorics
 |  |
 | ------- |
@@ -248,8 +253,14 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0347-top-k-frequent-elements) |
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
