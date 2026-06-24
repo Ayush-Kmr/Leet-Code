@@ -225,6 +225,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0234-palindrome-linked-list) |
 ## Breadth-First Search
 |  |
@@ -263,4 +264,12 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0347-top-k-frequent-elements) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
