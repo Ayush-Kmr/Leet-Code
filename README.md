@@ -96,6 +96,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0347-top-k-frequent-elements](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0485-max-consecutive-ones) |
+| [0496-next-greater-element-i](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0496-next-greater-element-i) |
 | [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
 ## Hash Table
 |  |
@@ -111,6 +112,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0169-majority-element](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0347-top-k-frequent-elements) |
+| [0496-next-greater-element-i](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0496-next-greater-element-i) |
 | [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
 ## Matrix
 |  |
@@ -229,6 +231,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0020-valid-parentheses](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0020-valid-parentheses) |
 | [0225-implement-stack-using-queues](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0496-next-greater-element-i) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -274,4 +277,8 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0225-implement-stack-using-queues) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
