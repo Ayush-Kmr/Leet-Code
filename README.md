@@ -204,6 +204,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0020-valid-parentheses](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0020-valid-parentheses) |
 | [0139-word-break](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0151-reverse-words-in-a-string) |
+| [0686-repeated-string-match](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0686-repeated-string-match) |
 ## Sliding Window
 |  |
 | ------- |
@@ -298,4 +299,8 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0146-lru-cache) |
+## String Matching
+|  |
+| ------- |
+| [0686-repeated-string-match](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0686-repeated-string-match) |
 <!---LeetCode Topics End-->
