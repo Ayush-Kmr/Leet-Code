@@ -135,6 +135,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0139-word-break](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0416-partition-equal-subset-sum) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Two Pointers
 |  |
 | ------- |
@@ -213,6 +214,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0165-compare-version-numbers](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0165-compare-version-numbers) |
 | [0242-valid-anagram](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0242-valid-anagram) |
 | [0686-repeated-string-match](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0686-repeated-string-match) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Sliding Window
 |  |
 | ------- |
