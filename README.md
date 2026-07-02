@@ -114,6 +114,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0160-intersection-of-two-linked-lists](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0347-top-k-frequent-elements) |
 | [0496-next-greater-element-i](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0496-next-greater-element-i) |
 | [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
@@ -167,6 +168,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0169-majority-element](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0347-top-k-frequent-elements) |
 ## Math
 |  |
@@ -204,6 +206,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0020-valid-parentheses](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0020-valid-parentheses) |
 | [0139-word-break](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0151-reverse-words-in-a-string) |
+| [0242-valid-anagram](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0242-valid-anagram) |
 | [0686-repeated-string-match](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0686-repeated-string-match) |
 ## Sliding Window
 |  |
