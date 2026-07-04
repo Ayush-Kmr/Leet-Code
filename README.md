@@ -248,6 +248,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | ------- |
 | [0020-valid-parentheses](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0020-valid-parentheses) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0084-largest-rectangle-in-histogram) |
+| [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
 | [0155-min-stack](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0234-palindrome-linked-list) |
@@ -266,6 +267,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 ## Depth-First Search
 |  |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
 | [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
 ## Trie
 |  |
@@ -314,4 +316,12 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0686-repeated-string-match](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0686-repeated-string-match) |
+## Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
 <!---LeetCode Topics End-->
