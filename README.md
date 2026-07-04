@@ -256,6 +256,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 ## Breadth-First Search
 |  |
 | ------- |
+| [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
 | [0322-coin-change](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0322-coin-change) |
 | [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
 ## Backtracking
@@ -268,6 +269,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
+| [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
 | [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
 ## Trie
 |  |
@@ -320,8 +322,10 @@ LeetCode • GFG • Visual Studio Code • GitHub
 |  |
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
+| [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
 ## Binary Tree
 |  |
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
+| [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
 <!---LeetCode Topics End-->
