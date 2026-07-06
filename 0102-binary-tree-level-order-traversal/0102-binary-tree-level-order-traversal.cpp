@@ -9,27 +9,37 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
-        vector<vector<int>>ans;
-        queue<TreeNode*>q;
-        q.push(root);
-        if(!root) return ans;
-        while(!q.empty()){
-            int size = q.size();
-            if(size == 0) return ans;
-            vector<int>data;
-            while(size>0){
-            TreeNode* temp = q.front();
-            q.pop(); 
-            data.push_back(temp->val);
-            if(temp->left) q.push(temp->left);
-            if(temp->right) q.push(temp->right);
-                size--;
+        vector<vector<int>> result;
+
+        if (!root) return result;
+
+        queue<TreeNode*> nodesQueue;
+        nodesQueue.push(root);
+
+        while (!nodesQueue.empty()) {
+            int levelSize = nodesQueue.size();
+            vector<int> currentLevel;
+
+            while (levelSize--) {
+                TreeNode* currentNode = nodesQueue.front();
+                nodesQueue.pop();
+
+                currentLevel.push_back(currentNode->val);
+
+                if (currentNode->left)
+                    nodesQueue.push(currentNode->left);
+
+                if (currentNode->right)
+                    nodesQueue.push(currentNode->right);
             }
-            ans.push_back(data);
+
+            result.push_back(currentLevel);
         }
-        return ans;
+
+        return result;
     }
 };
