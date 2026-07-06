@@ -213,6 +213,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0151-reverse-words-in-a-string](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0165-compare-version-numbers) |
 | [0242-valid-anagram](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0257-binary-tree-paths) |
 | [0686-repeated-string-match](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0686-repeated-string-match) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Sliding Window
@@ -265,11 +266,13 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0037-sudoku-solver](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0046-permutations) |
 | [0090-subsets-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0090-subsets-ii) |
+| [0257-binary-tree-paths](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0257-binary-tree-paths) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0257-binary-tree-paths) |
 | [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
 ## Trie
 |  |
@@ -323,9 +326,11 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0257-binary-tree-paths) |
 ## Binary Tree
 |  |
 | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0257-binary-tree-paths) |
 <!---LeetCode Topics End-->
