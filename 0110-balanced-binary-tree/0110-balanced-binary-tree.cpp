@@ -11,16 +11,16 @@
  */
 class Solution {
 public:
-    int solve(TreeNode* root,bool &balanced){
+    int solve(TreeNode* root, bool &balanced){
         if(!root) return 0;
-        int left = solve(root->left, balanced);
-        int right = solve(root->right, balanced);
-        if(abs(left-right)>1) balanced = false;
-        return 1 + max(left,right);
+        int left_h = solve(root->left, balanced);
+        int right_h = solve(root->right, balanced);
+        if(abs(left_h - right_h) > 1) balanced = false;
+        return 1 + max(left_h, right_h);
     }
     bool isBalanced(TreeNode* root) {
         bool balanced = true;
-        solve(root,balanced);
+        solve(root, balanced);
         return balanced;
     }
 };
