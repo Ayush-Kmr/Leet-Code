@@ -279,6 +279,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0110-balanced-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0543-diameter-of-binary-tree) |
 | [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
@@ -339,6 +340,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0110-balanced-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Tree
@@ -351,6 +353,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0110-balanced-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0110-balanced-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0543-diameter-of-binary-tree) |
 <!---LeetCode Topics End-->
