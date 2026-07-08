@@ -132,6 +132,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0062-unique-paths](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0062-unique-paths) |
 | [0118-pascals-triangle](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0416-partition-equal-subset-sum) |
@@ -277,6 +278,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0100-same-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -338,6 +340,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -351,6 +354,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
