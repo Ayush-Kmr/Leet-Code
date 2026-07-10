@@ -18,35 +18,27 @@ public:
 
 class Solution {
 public:
-    Node* level(Node* root){
+    Node* solve(Node* root){
         queue<Node*>q;
         q.push(root);
         while(!q.empty()){
-            int size = q.size();
-            if(size == 0) return root;
-            while(size>0){
-                Node* temp;
-                if(size > 1){
-                    temp = q.front();
-                    q.pop();
-                    
-                    Node* nextNode = q.front();
-                    temp->next = nextNode;
-                }
-                else{
-                    temp = q.front();
-                    q.pop();
-                }
+            int n = q.size();
+            while(n--){
+                Node* temp = q.front();
+                q.pop();
+                if(n > 0) temp->next = q.front();
+                else temp->next = NULL;
+
                 if(temp->left) q.push(temp->left);
                 if(temp->right) q.push(temp->right);
-                size--;
             }
             root->next = NULL;
         }
         return root;
     }
     Node* connect(Node* root) {
-        if(!root) return root;
-        return level(root);
+        if(!root) return NULL;
+        solve(root);
+        return root;
     }
 };
