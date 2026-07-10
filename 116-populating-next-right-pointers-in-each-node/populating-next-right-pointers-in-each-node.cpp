@@ -19,7 +19,6 @@ public:
 class Solution {
 public:
     Node* solve(Node* root){
-        if(!root) return NULL;
         queue<Node*>q;
         q.push(root);
         while(!q.empty()){
@@ -27,10 +26,9 @@ public:
             while(n--){
                 Node* temp = q.front();
                 q.pop();
-                
-                if (n > 0) temp->next = q.front();
+                if(n > 0) temp->next = q.front();
                 else temp->next = NULL;
-                
+
                 if(temp->left) q.push(temp->left);
                 if(temp->right) q.push(temp->right);
             }
@@ -39,6 +37,7 @@ public:
         return root;
     }
     Node* connect(Node* root) {
+        if(!root) return NULL;
         solve(root);
         return root;
     }
