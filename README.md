@@ -88,6 +88,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0088-merge-sorted-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0139-word-break) |
@@ -163,6 +164,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0004-median-of-two-sorted-arrays](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0347-top-k-frequent-elements) |
@@ -349,6 +351,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0116-populating-next-right-pointers-in-each-node) |
@@ -367,6 +370,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0116-populating-next-right-pointers-in-each-node) |
@@ -380,5 +384,6 @@ LeetCode • GFG • Visual Studio Code • GitHub
 ## Binary Search Tree
 |  |
 | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0700-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
