@@ -101,6 +101,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0416-partition-equal-subset-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0496-next-greater-element-i) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1036-escape-a-large-maze](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1036-escape-a-large-maze) |
 ## Hash Table
 |  |
@@ -263,6 +264,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0225-implement-stack-using-queues](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0496-next-greater-element-i) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -334,6 +336,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0496-next-greater-element-i) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -362,6 +365,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0257-binary-tree-paths](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0543-diameter-of-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0700-search-in-a-binary-search-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
@@ -381,9 +385,11 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0257-binary-tree-paths](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0543-diameter-of-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0700-search-in-a-binary-search-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Binary Search Tree
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0700-search-in-a-binary-search-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 <!---LeetCode Topics End-->
