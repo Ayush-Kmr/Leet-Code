@@ -11,16 +11,19 @@
  */
 class Solution {
 public:
-    int kthSmallest(TreeNode* root, int &k) {
-        if(root == NULL) return -1;
-        int left = kthSmallest(root->left , k);
-        if(left != -1) return left;
-        k--;
-        if(k==0) return root->val;
-        int right = kthSmallest(root->right, k);
-        if(right!=-1) return right;
-        
-        return -1;
-        
+    int cnt = 0;
+
+    int inorder(TreeNode* root, int k) {
+       if(!root) return -1;
+       int left = inorder(root->left, k);
+
+       if(left != -1) return left;
+       cnt++;
+       if(k == cnt) return root->val;
+       return inorder(root->right, k);
+    }
+
+    int kthSmallest(TreeNode* root, int k) {
+        return inorder(root, k);
     }
 };
