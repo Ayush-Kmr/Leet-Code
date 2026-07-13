@@ -263,6 +263,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
 | [0155-min-stack](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0155-min-stack) |
+| [0173-binary-search-tree-iterator](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0496-next-greater-element-i) |
@@ -333,6 +334,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | ------- |
 | [0146-lru-cache](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0155-min-stack) |
+| [0173-binary-search-tree-iterator](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0225-implement-stack-using-queues) |
 ## Queue
 |  |
@@ -368,6 +370,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -392,6 +395,7 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0144-binary-tree-preorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0199-binary-tree-right-side-view) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -406,9 +410,14 @@ LeetCode • GFG • Visual Studio Code • GitHub
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0173-binary-search-tree-iterator](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0700-search-in-a-binary-search-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Ayush-Kmr/Leet-Code/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/Ayush-Kmr/Leet-Code/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
